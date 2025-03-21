@@ -14,8 +14,10 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <main className="pt-24">
-        <Services />
-        <Contact />
+        <section id="home" className="min-h-screen">
+          <Services />
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>

@@ -32,6 +32,7 @@ i18n
         translation: esTranslations,
       },
     },
+    lng: 'hu',
     fallbackLng: 'hu',
     interpolation: {
       escapeValue: false,
