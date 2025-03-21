@@ -18,9 +18,7 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { title: t('header.home'), link: 'home' },
     { title: t('header.services'), link: 'services' },
-    { title: t('header.pricing'), link: 'pricing' },
     { title: t('header.contact'), link: 'contact' },
   ];
 
@@ -34,7 +32,14 @@ const Header = () => {
     >
       <div className="container mx-auto px-6">
         <nav className="flex justify-between items-center">
-          <h3 className="text-2xl font-bold gold-gradient">Lumara</h3>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="text-2xl font-bold gold-gradient cursor-pointer"
+          >
+            Lumara
+          </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -69,6 +74,12 @@ const Header = () => {
               }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                const contactSection = document.getElementById('contact');
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               {t('header.quote')}
             </motion.button>
@@ -142,11 +153,20 @@ const Header = () => {
                   </Link>
                 ))}
                 <LanguageSelector />
-                <button className={`w-full px-6 py-3 rounded-xl hover:shadow-lg transition-all text-sm font-semibold ${
-                  scrolled
-                    ? 'bg-blue-600 text-white hover-gradient'
-                    : 'bg-white text-gray-900 hover:bg-gray-100'
-                }`}>
+                <button 
+                  className={`w-full px-6 py-3 rounded-xl hover:shadow-lg transition-all text-sm font-semibold ${
+                    scrolled
+                      ? 'bg-blue-600 text-white hover-gradient'
+                      : 'bg-white text-gray-900 hover:bg-gray-100'
+                  }`}
+                  onClick={() => {
+                    const contactSection = document.getElementById('contact');
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                    setIsMenuOpen(false);
+                  }}
+                >
                   {t('header.quote')}
                 </button>
               </motion.nav>
