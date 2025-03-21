@@ -1,0 +1,140 @@
+{
+  "header": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "quote": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "title": "Limpieza Profesional",
+    "subtitle": "Casa limpia, vida feliz",
+    "description": "Nuestro equipo de expertos garantiza una limpieza perfecta para tu hogar",
+    "cta": "Solicitar Presupuesto"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Servicios de limpieza de alta calidad",
+    "general": {
+      "title": "Limpieza General",
+      "description": "Limpieza regular y profunda en todas las habitaciones",
+      "features": [
+        "Desempolvado y aspirado",
+        "Limpieza de superficies",
+        "Limpieza de suelos",
+        "Limpieza de baño y cocina"
+      ]
+    },
+    "windows": {
+      "title": "Limpieza de Ventanas",
+      "description": "Limpieza profesional de ventanas y tratamiento de superficies de vidrio",
+      "features": [
+        "Limpieza de ventanas interior y exterior",
+        "Limpieza de marcos de ventanas",
+        "Pulido de superficies de vidrio",
+        "Limpieza de puertas de balcón y escaparates"
+      ]
+    },
+    "deep": {
+      "title": "Limpieza Profunda",
+      "description": "Limpieza detallada y profunda en cada rincón",
+      "features": [
+        "Limpieza del baño",
+        "Sanitización del inodoro",
+        "Limpieza profunda de la cocina",
+        "Organización de armarios de cocina",
+        "Desempolvado completo",
+        "Aspirado profundo",
+        "Lavado y sanitización de suelos",
+        "Limpieza de ventanas",
+        "Limpieza y sanitización de puertas"
+      ]
+    },
+    "move": {
+      "title": "Limpieza Post Mudanza",
+      "description": "Limpieza completa después de la mudanza",
+      "features": [
+        "Limpieza de paredes",
+        "Limpieza profunda de suelos",
+        "Esterilización de cocina y baño",
+        "Limpieza de ventanas y puertas"
+      ]
+    },
+    "airbnb": {
+      "title": "Limpieza Airbnb",
+      "description": "Servicio especializado de limpieza y preparación para propiedades de alquiler a corto plazo",
+      "features": [
+        "Desempolvado y aspirado",
+        "Limpieza de superficies",
+        "Limpieza de suelos",
+        "Limpieza de baño y cocina",
+        "Preparación de cama fresca",
+        "Configuración de toallas",
+        "Reposición de amenidades",
+        "Inspección previa a huéspedes"
+      ]
+    },
+    "office": {
+      "title": "Limpieza de Oficinas",
+      "description": "Soluciones profesionales de limpieza para espacios de oficina",
+      "features": [
+        "Limpieza de estaciones de trabajo y escritorios",
+        "Sanitización de salas de reuniones",
+        "Limpieza de cocina y sala de descanso",
+        "Limpieza profunda de baños",
+        "Mantenimiento de pisos",
+        "Gestión de residuos",
+        "Limpieza de ventanas y cristales",
+        "Limpieza nocturna disponible"
+      ]
+    },
+    "pricing": {
+      "title": "Precios",
+      "starting": "5000 Ft / hora",
+      "discounts": {
+        "first": "-15% en la primera limpieza",
+        "move": "-30% en limpieza post mudanza"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Contáctanos",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "success": "¡Gracias por su mensaje! Nos pondremos en contacto pronto.",
+      "error": "Lo sentimos, hubo un error al enviar su mensaje. Por favor, inténtelo de nuevo."
+    },
+    "info": {
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "hoursTitle": "Horario de atención",
+      "hours": {
+        "monday": "Lunes",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo",
+        "closed": "Cerrado"
+      }
+    }
+  },
+  "footer": {
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados",
+    "description": "Servicios profesionales de limpieza de la más alta calidad",
+    "serviceList": {
+      "general": "Limpieza General",
+      "windows": "Limpieza de Ventanas",
+      "deep": "Limpieza Profunda",
+      "airbnb": "Limpieza Airbnb",
+      "office": "Limpieza de Oficinas"
+    }
+  }
+} 

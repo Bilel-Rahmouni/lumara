@@ -1,0 +1,135 @@
+{
+  "header": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "quote": "Angebot Anfordern"
+  },
+  "hero": {
+    "title": "Professionelle Reinigung",
+    "subtitle": "Sauberes Zuhause, glückliches Leben",
+    "description": "Unser Expertenteam garantiert eine perfekte Reinigung für Ihr Zuhause",
+    "cta": "Angebot Anfordern"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Hochwertige Reinigungsservices",
+    "general": {
+      "title": "Grundreinigung",
+      "description": "Regelmäßige und gründliche Reinigung aller Räume",
+      "features": [
+        "Staubwischen und Staubsaugen",
+        "Oberflächenreinigung",
+        "Bodenreinigung",
+        "Bad- und Küchenreinigung"
+      ]
+    },
+    "windows": {
+      "title": "Fensterreinigung",
+      "description": "Professionelle Fensterreinigung und Glasflächenbehandlung",
+      "features": [
+        "Fensterreinigung innen und außen",
+        "Fensterrahmenreinigung",
+        "Glasflächenpolierung",
+        "Reinigung von Balkontüren und Schaufenstern"
+      ]
+    },
+    "deep": {
+      "title": "Tiefenreinigung",
+      "description": "Detaillierte und gründliche Reinigung in jeder Ecke",
+      "features": [
+        "Möbelreinigung",
+        "Fensterreinigung",
+        "Vorhänge reinigen",
+        "Ecken und Ritzen reinigen"
+      ]
+    },
+    "move": {
+      "title": "Umzugsreinigung",
+      "description": "Komplette Reinigung nach dem Umzug",
+      "features": [
+        "Wandreinigung",
+        "Gründliche Bodenreinigung",
+        "Küchen- und Badsterilisation",
+        "Fenster- und Türreinigung"
+      ]
+    },
+    "office": {
+      "title": "Büroreinigung",
+      "description": "Professionelle Reinigungslösungen für Büroräume",
+      "features": [
+        "Reinigung von Arbeitsplätzen und Schreibtischen",
+        "Sanitärreinigung von Besprechungsräumen",
+        "Reinigung von Küche und Pausenraum",
+        "Tiefenreinigung der Badezimmer",
+        "Bodenpflege",
+        "Abfallentsorgung",
+        "Fenster- und Glasreinigung",
+        "Abend-/Nachtreinigung verfügbar"
+      ]
+    },
+    "airbnb": {
+      "title": "Airbnb Reinigung",
+      "description": "Spezialisierter Reinigungs- und Vorbereitungsservice für Kurzzeitvermietungen",
+      "features": [
+        "Staubwischen und Staubsaugen",
+        "Oberflächenreinigung",
+        "Bodenreinigung",
+        "Bad- und Küchenreinigung",
+        "Frisch bezogene Betten",
+        "Handtuchaufbereitung",
+        "Auffüllen der Ausstattung",
+        "Vor-Gast-Inspektion"
+      ]
+    },
+    "pricing": {
+      "title": "Preise",
+      "starting": "5000 Ft / Stunde",
+      "discounts": {
+        "first": "-15% auf die erste Reinigung",
+        "move": "-30% auf Umzugsreinigung"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktieren Sie uns",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "success": "Vielen Dank für Ihre Nachricht! Wir melden uns bald bei Ihnen.",
+      "error": "Entschuldigung, beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "hoursTitle": "Öffnungszeiten",
+      "hours": {
+        "monday": "Montag",
+        "friday": "Freitag",
+        "saturday": "Samstag",
+        "sunday": "Sonntag",
+        "closed": "Geschlossen"
+      }
+    }
+  },
+  "footer": {
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten",
+    "description": "Professionelle Reinigungsservices in höchster Qualität",
+    "serviceList": {
+      "general": "Grundreinigung",
+      "windows": "Fensterreinigung",
+      "deep": "Tiefenreinigung",
+      "airbnb": "Airbnb Reinigung",
+      "office": "Büroreinigung"
+    }
+  }
+} 

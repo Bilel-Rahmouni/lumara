@@ -1,0 +1,135 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Servizi",
+    "pricing": "Prezzi",
+    "contact": "Contatti",
+    "quote": "Richiedi Preventivo"
+  },
+  "hero": {
+    "title": "Pulizia Professionale",
+    "subtitle": "Casa pulita, vita felice",
+    "description": "Il nostro team di esperti garantisce una pulizia perfetta per la tua casa",
+    "cta": "Richiedi Preventivo"
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Servizi di pulizia di alta qualità",
+    "general": {
+      "title": "Pulizia Generale",
+      "description": "Pulizia regolare e approfondita in tutte le stanze",
+      "features": [
+        "Spolveratura e aspirazione",
+        "Pulizia delle superfici",
+        "Lavaggio dei pavimenti",
+        "Pulizia del bagno e della cucina"
+      ]
+    },
+    "windows": {
+      "title": "Pulizia Vetri",
+      "description": "Pulizia professionale dei vetri e trattamento delle superfici vetrate",
+      "features": [
+        "Pulizia vetri interno ed esterno",
+        "Pulizia dei telai delle finestre",
+        "Lucidatura delle superfici vetrate",
+        "Pulizia di porte-finestre e vetrine"
+      ]
+    },
+    "deep": {
+      "title": "Pulizia Profonda",
+      "description": "Pulizia dettagliata e approfondita in ogni angolo",
+      "features": [
+        "Pulizia dei mobili",
+        "Lavaggio delle finestre",
+        "Pulizia delle tende",
+        "Pulizia di angoli e fessure"
+      ]
+    },
+    "move": {
+      "title": "Pulizia Post Trasloco",
+      "description": "Pulizia completa dopo il trasloco",
+      "features": [
+        "Lavaggio delle pareti",
+        "Pulizia approfondita dei pavimenti",
+        "Sterilizzazione della cucina e del bagno",
+        "Lavaggio di finestre e porte"
+      ]
+    },
+    "office": {
+      "title": "Pulizia Uffici",
+      "description": "Soluzioni professionali di pulizia per spazi ufficio",
+      "features": [
+        "Pulizia postazioni di lavoro e scrivanie",
+        "Sanificazione sale riunioni",
+        "Pulizia cucina e sala pausa",
+        "Pulizia profonda bagni",
+        "Manutenzione pavimenti",
+        "Gestione rifiuti",
+        "Pulizia finestre e vetri",
+        "Pulizia serale/notturna disponibile"
+      ]
+    },
+    "airbnb": {
+      "title": "Pulizia Airbnb",
+      "description": "Servizio specializzato di pulizia e preparazione per affitti a breve termine",
+      "features": [
+        "Spolveratura e aspirazione",
+        "Pulizia delle superfici",
+        "Lavaggio dei pavimenti",
+        "Pulizia del bagno e della cucina",
+        "Rifacimento dei letti",
+        "Preparazione degli asciugamani",
+        "Rifornimento delle dotazioni",
+        "Ispezione pre-ospite"
+      ]
+    },
+    "pricing": {
+      "title": "Prezzi",
+      "starting": "5000 Ft / ora",
+      "discounts": {
+        "first": "-15% sulla prima pulizia",
+        "move": "-30% sulla pulizia post trasloco"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contatti",
+    "subtitle": "Contattaci",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefono",
+      "message": "Messaggio",
+      "submit": "Invia",
+      "success": "Grazie per il tuo messaggio! Ti risponderemo presto.",
+      "error": "Mi dispiace, si è verificato un errore durante l'invio del messaggio. Riprova."
+    },
+    "info": {
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "email": "Email",
+      "hoursTitle": "Orari di apertura",
+      "hours": {
+        "monday": "Lunedì",
+        "friday": "Venerdì",
+        "saturday": "Sabato",
+        "sunday": "Domenica",
+        "closed": "Chiuso"
+      }
+    }
+  },
+  "footer": {
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "contact": "Contatti",
+    "rights": "Tutti i diritti riservati",
+    "description": "Servizi professionali di pulizia della massima qualità",
+    "serviceList": {
+      "general": "Pulizia Generale",
+      "windows": "Pulizia Vetri",
+      "deep": "Pulizia Profonda",
+      "airbnb": "Pulizia Airbnb",
+      "office": "Pulizia Uffici"
+    }
+  }
+} 

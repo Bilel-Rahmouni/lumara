@@ -1,0 +1,130 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "hero": {
+    "title": "Professional Cleaning",
+    "subtitle": "Clean home, happy life",
+    "description": "Our expert team ensures perfect cleanliness for your home",
+    "cta": "Get a Quote"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "High-quality cleaning services",
+    "general": {
+      "title": "General Cleaning",
+      "description": "Regular and thorough cleaning in all rooms",
+      "features": [
+        "Dusting and vacuuming",
+        "Surface wiping",
+        "Floor mopping",
+        "Bathroom and kitchen cleaning"
+      ]
+    },
+    "windows": {
+      "title": "Window Cleaning",
+      "description": "Professional window cleaning and glass surface treatment",
+      "features": [
+        "Interior and exterior window cleaning",
+        "Window frame cleaning",
+        "Glass surface polishing",
+        "Balcony doors and display windows cleaning"
+      ]
+    },
+    "deep": {
+      "title": "Deep Cleaning",
+      "description": "Detailed and thorough cleaning in every corner",
+      "features": [
+        "Bathroom cleaning",
+        "Toilet sanitization",
+        "Kitchen deep cleaning",
+        "Kitchen cabinet organization",
+        "Complete dusting",
+        "Thorough vacuuming",
+        "Floor washing and sanitization",
+        "Window cleaning",
+        "Door cleaning and sanitization"
+      ]
+    },
+    "airbnb": {
+      "title": "Airbnb Cleaning",
+      "description": "Specialized cleaning and preparation service for short-term rental properties",
+      "features": [
+        "Dusting and vacuuming",
+        "Surface wiping",
+        "Floor mopping",
+        "Bathroom and kitchen cleaning",
+        "Fresh bed making",
+        "Towel setup",
+        "Amenity restocking",
+        "Pre-guest inspection"
+      ]
+    },
+    "office": {
+      "title": "Office Cleaning",
+      "description": "Professional cleaning solutions for office spaces",
+      "features": [
+        "Workstation and desk cleaning",
+        "Meeting room sanitization",
+        "Kitchen and break room cleaning",
+        "Bathroom deep cleaning",
+        "Floor maintenance",
+        "Waste management",
+        "Window and glass cleaning",
+        "Evening/night cleaning available"
+      ]
+    },
+    "pricing": {
+      "title": "Pricing",
+      "starting": "5000 Ft / hour",
+      "discounts": {
+        "first": "-15% for first cleaning",
+        "airbnb": "-20% on regular Airbnb service"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Thank you for your message! We'll get back to you soon.",
+      "error": "Sorry, there was an error sending your message. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hoursTitle": "Opening Hours",
+      "hours": {
+        "monday": "Monday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
+      }
+    }
+  },
+  "footer": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "description": "Professional cleaning services of the highest quality",
+    "serviceList": {
+      "general": "General Cleaning",
+      "windows": "Window Cleaning",
+      "deep": "Deep Cleaning",
+      "airbnb": "Airbnb Cleaning",
+      "office": "Office Cleaning"
+    }
+  }
+} 

@@ -1,0 +1,135 @@
+{
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "quote": "Demander un Devis"
+  },
+  "hero": {
+    "title": "Nettoyage Professionnel",
+    "subtitle": "Maison propre, vie heureuse",
+    "description": "Notre équipe d'experts assure une propreté parfaite pour votre maison",
+    "cta": "Demander un Devis"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Services de nettoyage de haute qualité",
+    "general": {
+      "title": "Nettoyage Général",
+      "description": "Nettoyage régulier et approfondi dans toutes les pièces",
+      "features": [
+        "Dépoussiérage et aspiration",
+        "Nettoyage des surfaces",
+        "Lavage des sols",
+        "Nettoyage de la salle de bain et de la cuisine"
+      ]
+    },
+    "windows": {
+      "title": "Nettoyage des Vitres",
+      "description": "Nettoyage professionnel des vitres et traitement des surfaces vitrées",
+      "features": [
+        "Nettoyage des vitres intérieur et extérieur",
+        "Nettoyage des cadres de fenêtres",
+        "Polissage des surfaces vitrées",
+        "Nettoyage des portes-fenêtres et vitrines"
+      ]
+    },
+    "deep": {
+      "title": "Nettoyage en Profondeur",
+      "description": "Nettoyage détaillé et approfondi dans chaque coin",
+      "features": [
+        "Nettoyage des meubles",
+        "Nettoyage des fenêtres",
+        "Nettoyage des rideaux",
+        "Nettoyage des coins et recoins"
+      ]
+    },
+    "move": {
+      "title": "Nettoyage après Déménagement",
+      "description": "Nettoyage complet après déménagement",
+      "features": [
+        "Lavage des murs",
+        "Nettoyage approfondi des sols",
+        "Stérilisation de la cuisine et de la salle de bain",
+        "Nettoyage des fenêtres et des portes"
+      ]
+    },
+    "office": {
+      "title": "Nettoyage de Bureaux",
+      "description": "Solutions professionnelles de nettoyage pour espaces de bureau",
+      "features": [
+        "Nettoyage des postes de travail et bureaux",
+        "Sanitisation des salles de réunion",
+        "Nettoyage de la cuisine et de la salle de pause",
+        "Nettoyage en profondeur des salles de bain",
+        "Entretien des sols",
+        "Gestion des déchets",
+        "Nettoyage des fenêtres et vitres",
+        "Nettoyage soir/nuit disponible"
+      ]
+    },
+    "airbnb": {
+      "title": "Nettoyage Airbnb",
+      "description": "Service spécialisé de nettoyage et de préparation pour locations courtes durées",
+      "features": [
+        "Dépoussiérage et aspiration",
+        "Nettoyage des surfaces",
+        "Nettoyage des sols",
+        "Nettoyage de la salle de bain et de la cuisine",
+        "Faitage des lits",
+        "Préparation des serviettes",
+        "Réapprovisionnement des équipements",
+        "Inspection pré-guest"
+      ]
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "starting": "5000 Ft / heure",
+      "discounts": {
+        "first": "-15% pour le premier nettoyage",
+        "move": "-30% sur le nettoyage après déménagement"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Merci pour votre message ! Nous vous répondrons bientôt.",
+      "error": "Désolé, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hoursTitle": "Horaires d'ouverture",
+      "hours": {
+        "monday": "Lundi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche",
+        "closed": "Fermé"
+      }
+    }
+  },
+  "footer": {
+    "about": "À Propos",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "Tous droits réservés",
+    "description": "Services professionnels de nettoyage de la plus haute qualité",
+    "serviceList": {
+      "general": "Nettoyage Général",
+      "windows": "Nettoyage des Fenêtres",
+      "deep": "Nettoyage en Profondeur",
+      "airbnb": "Nettoyage Airbnb",
+      "office": "Nettoyage de Bureaux"
+    }
+  }
+} 

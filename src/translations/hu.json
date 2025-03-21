@@ -1,0 +1,135 @@
+{
+  "header": {
+    "home": "Főoldal",
+    "services": "Szolgáltatások",
+    "pricing": "Árak",
+    "contact": "Kapcsolat",
+    "quote": "Árajánlat Kérése"
+  },
+  "hero": {
+    "title": "Professzionális Takarítás",
+    "subtitle": "Tiszta otthon, boldog élet",
+    "description": "Szakértő csapatunkkal biztosítjuk otthonod tökéletes tisztaságát",
+    "cta": "Árajánlat Kérése"
+  },
+  "services": {
+    "title": "Szolgáltatásaink",
+    "subtitle": "Kiváló minőségű takarítási szolgáltatások",
+    "general": {
+      "title": "Általános Takarítás",
+      "description": "Rendszeres és alapos takarítás minden helyiségben",
+      "features": [
+        "Por törlés és porszívózás",
+        "Felületek áttörlése",
+        "Padló mosás",
+        "Fürdőszoba és konyha takarítás"
+      ]
+    },
+    "windows": {
+      "title": "Ablaktisztítás",
+      "description": "Professzionális ablaktisztítás és üvegfelület kezelés",
+      "features": [
+        "Ablakok külső-belső tisztítása",
+        "Ablakkeretek tisztítása",
+        "Üvegfelületek polírozása",
+        "Erkélyajtók és kirakatok tisztítása"
+      ]
+    },
+    "deep": {
+      "title": "Mélytakarítás",
+      "description": "Részletes és alapos takarítás minden sarokban",
+      "features": [
+        "Bútorok áttörlése",
+        "Ablakok mosása",
+        "Függönyök tisztítása",
+        "Sarkok és zugok takarítása"
+      ]
+    },
+    "move": {
+      "title": "Költöztetés Utáni Takarítás",
+      "description": "Teljes körű takarítás költözés után",
+      "features": [
+        "Falak mosása",
+        "Padlók alapos tisztítása",
+        "Konyha és fürdőszoba sterilizálása",
+        "Ablakok és ajtók mosása"
+      ]
+    },
+    "airbnb": {
+      "title": "Airbnb Takarítás",
+      "description": "Speciális takarítási és előkészítési szolgáltatás rövid távú szálláshelyekhez",
+      "features": [
+        "Por törlés és porszívózás",
+        "Felületek áttörlése",
+        "Padló mosás",
+        "Fürdőszoba és konyha takarítás",
+        "Friss ágynemű bevetése",
+        "Törölközők előkészítése",
+        "Kellékek feltöltése",
+        "Vendégek előtti ellenőrzés"
+      ]
+    },
+    "office": {
+      "title": "Irodai Takarítás",
+      "description": "Professzionális takarítási megoldások irodákhoz",
+      "features": [
+        "Munkaállomások és asztalok tisztítása",
+        "Tárgyalók sterilizálása",
+        "Konyha és pihenőszoba takarítása",
+        "Fürdőszoba mélytakarítása",
+        "Padlók karbantartása",
+        "Hulladékkezelés",
+        "Ablakok és üvegek tisztítása",
+        "Esti/éjszakai takarítás elérhető"
+      ]
+    },
+    "pricing": {
+      "title": "Árazás",
+      "starting": "5000 Ft / órától",
+      "discounts": {
+        "first": "-15% az első takarításért",
+        "move": "-30% költöztetés utáni takarításért"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Lépjen kapcsolatba velünk",
+    "form": {
+      "name": "Név",
+      "email": "Email",
+      "phone": "Telefon",
+      "message": "Üzenet",
+      "submit": "Küldés",
+      "success": "Köszönjük üzenetét! Hamarosan felvesszük Önnel a kapcsolatot.",
+      "error": "Sajnáljuk, hiba történt az üzenet küldése során. Kérjük, próbálja újra."
+    },
+    "info": {
+      "address": "Cím",
+      "phone": "Telefon",
+      "email": "Email",
+      "hoursTitle": "Nyitvatartás",
+      "hours": {
+        "monday": "Hétfő",
+        "friday": "Péntek",
+        "saturday": "Szombat",
+        "sunday": "Vasárnap",
+        "closed": "Zárva"
+      }
+    }
+  },
+  "footer": {
+    "about": "Rólunk",
+    "services": "Szolgáltatások",
+    "contact": "Kapcsolat",
+    "rights": "Minden jog fenntartva",
+    "description": "Professzionális takarítási szolgáltatások a legmagasabb minőségben",
+    "serviceList": {
+      "general": "Általános Takarítás",
+      "windows": "Ablaktisztítás",
+      "deep": "Mélytakarítás",
+      "airbnb": "Airbnb Takarítás",
+      "office": "Irodai Takarítás"
+    }
+  }
+} 
