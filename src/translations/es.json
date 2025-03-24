@@ -89,12 +89,17 @@
       ]
     },
     "pricing": {
-      "title": "Precios",
+      "title": "Sin Costos Ocultos - Solo Precios Transparentes",
+      "subtitle": "Nuestros precios de limpieza comienzan desde 5000 ft",
+      "perHour": "por hora",
       "starting": "5000 Ft / hora",
       "discounts": {
         "first": "-15% en la primera limpieza",
         "move": "-30% en limpieza post mudanza"
-      }
+      },
+      "price": "Precio",
+      "firstTimeDiscount": "Precio con descuento de primera vez",
+      "getDiscount": "¡Obtener cupón de descuento ahora!"
     }
   },
   "contact": {

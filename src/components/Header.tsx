@@ -19,6 +19,7 @@ const Header = () => {
 
   const menuItems = [
     { title: t('header.services'), link: 'services' },
+    { title: t('header.pricing'), link: 'pricing' },
     { title: t('header.contact'), link: 'contact' },
   ];
 

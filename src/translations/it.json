@@ -84,12 +84,17 @@
       ]
     },
     "pricing": {
-      "title": "Prezzi",
+      "title": "Nessun Costo Nascosto - Solo Prezzi Trasparenti",
+      "subtitle": "I nostri prezzi di pulizia iniziano da",
+      "perHour": "all'ora",
       "starting": "5000 Ft / ora",
       "discounts": {
         "first": "-15% sulla prima pulizia",
         "move": "-30% sulla pulizia post trasloco"
-      }
+      },
+      "price": "Prezzo",
+      "firstTimeDiscount": "Prezzo con sconto prima volta",
+      "getDiscount": "Ottieni il coupon di sconto ora!"
     }
   },
   "contact": {

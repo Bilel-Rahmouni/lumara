@@ -84,12 +84,17 @@
       ]
     },
     "pricing": {
-      "title": "Tarifs",
+      "title": "Pas de Frais Cachés - Seulement des Prix Transparents",
+      "subtitle": "Nos prix de nettoyage commencent à partir de",
+      "perHour": "par heure",
       "starting": "5000 Ft / heure",
       "discounts": {
         "first": "-15% pour le premier nettoyage",
         "move": "-30% sur le nettoyage après déménagement"
-      }
+      },
+      "price": "Prix",
+      "firstTimeDiscount": "Prix avec réduction première fois",
+      "getDiscount": "Obtenez le coupon de réduction maintenant !"
     }
   },
   "contact": {

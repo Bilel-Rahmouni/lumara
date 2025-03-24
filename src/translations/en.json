@@ -126,5 +126,45 @@
       "airbnb": "Airbnb Cleaning",
       "office": "Office Cleaning"
     }
+  },
+  "pricing": {
+    "title": "No Hidden Fees - Just Transparent Prices",
+    "subtitle": "Our cleaning service prices start from 5000 ft",
+    "perHour": "per hour",
+    "priceSummary": "Price Summary",
+    "price": "Price",
+    "firstTimeDiscount": "Price after first time discount",
+    "getDiscount": "Get discount coupon now!",
+    "frequency": {
+      "title": "How often would you like cleaning?",
+      "weekly": "Weekly",
+      "biweekly": "Every 2 weeks",
+      "monthly": "Monthly",
+      "oneTime": "One time"
+    },
+    "surface": {
+      "title": "What size area do you want cleaned?",
+      "unit": "m²"
+    },
+    "bathrooms": {
+      "title": "How many bathrooms do you want cleaned?",
+      "unit": "bathrooms"
+    },
+    "rugs": {
+      "title": "What size area is covered by rugs?",
+      "unit": "m²"
+    },
+    "pets": {
+      "title": "Do you have pets?",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "options": {
+      "title": "Would you like any of these additional options?",
+      "fridge": "Refrigerator",
+      "microwave": "Microwave",
+      "oven": "Oven",
+      "hood": "Kitchen hood"
+    }
   }
 } 

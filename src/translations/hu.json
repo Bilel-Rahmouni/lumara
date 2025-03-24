@@ -83,14 +83,46 @@
         "Hulladékkezelés",
         "Ablakok és üvegek tisztítása"
       ]
+    }
+  },
+  "pricing": {
+    "title": "Nincsenek rejtett díjak - Csak átlátható árak",
+    "subtitle": "A takarítási szolgáltatásaink ára 5000 ft",
+    "perHour": "per óra",
+    "priceSummary": "Ár összesítés",
+    "price": "Ár",
+    "firstTimeDiscount": "Ár első alkalom kedvezménnyel",
+    "getDiscount": "Kedvezménykupon igénylése",
+    "frequency": {
+      "title": "Milyen gyakran szeretné a takarítást?",
+      "weekly": "Hetente",
+      "biweekly": "Két hetente",
+      "monthly": "Havonta",
+      "oneTime": "Egyszeri"
     },
-    "pricing": {
-      "title": "Árazás",
-      "starting": "5000 Ft / órától",
-      "discounts": {
-        "first": "-15% az első takarításért",
-        "move": "-30% költöztetés utáni takarításért"
-      }
+    "surface": {
+      "title": "Mekkora területet szeretne takaríttatni?",
+      "unit": "m²"
+    },
+    "bathrooms": {
+      "title": "Hány fürdőszobát szeretne takaríttatni?",
+      "unit": "fürdőszoba"
+    },
+    "rugs": {
+      "title": "Mekkora területet fednek a szőnyegek?",
+      "unit": "m²"
+    },
+    "pets": {
+      "title": "Van háziállata?",
+      "yes": "Igen",
+      "no": "Nem"
+    },
+    "options": {
+      "title": "Szeretné valamelyik további opciót?",
+      "fridge": "Hűtőszekrény",
+      "microwave": "Mikrohullámú sütő",
+      "oven": "Sütő",
+      "hood": "Konyhai elszívó"
     }
   },
   "contact": {

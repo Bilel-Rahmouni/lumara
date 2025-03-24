@@ -84,12 +84,17 @@
       ]
     },
     "pricing": {
-      "title": "Preise",
+      "title": "Keine versteckten Kosten - Nur transparente Preise",
+      "subtitle": "Unsere Reinigungspreise beginnen ab",
+      "perHour": "pro Stunde",
       "starting": "5000 Ft / Stunde",
       "discounts": {
         "first": "-15% auf die erste Reinigung",
         "move": "-30% auf Umzugsreinigung"
-      }
+      },
+      "price": "Preis",
+      "firstTimeDiscount": "Preis mit Erstkundenrabatt",
+      "getDiscount": "Jetzt Gutschein sichern!"
     }
   },
   "contact": {

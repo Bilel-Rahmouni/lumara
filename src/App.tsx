@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Pricing from './components/Pricing';
 import './i18n';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <main className="pt-24">
         <section id="home" className="min-h-screen">
           <Services />
+          <Pricing />
           <Contact />
         </section>
       </main>

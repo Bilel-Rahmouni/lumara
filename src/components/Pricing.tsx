@@ -1,153 +1,311 @@
-// import { useState } from 'react';
-// import { motion } from 'framer-motion';
+import { useEffect, useState } from "react"; 
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
+import { PiRug, PiToiletLight, PiDogLight } from "react-icons/pi";
+import { BsHouse } from "react-icons/bs";
+import { CiCalendar } from "react-icons/ci";
+import { MdOutlineKitchen } from "react-icons/md";
+import { Link } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
 
-// const Pricing = () => {
-//   const [calculatedPrice, setCalculatedPrice] = useState(5000);
+const Pricing = () => {
+  const { t } = useTranslation();
+  const mainPrice = 5000; // Price per hour
+  
+  // Define frequency options with their multipliers
+  const frequencyOptions = [
+    { id: 1, multiplier: 1.0 },    // Weekly
+    { id: 2, multiplier: 1.0 },   // Biweekly
+    { id: 3, multiplier: 1.25 },   // Monthly
+    { id: 4, multiplier: 1.25 }    // One-time
+  ];
 
-//   return (
-//     <section className="py-20 bg-gray-50">
-//       <div className="container mx-auto px-4">
-//         <div className="text-center mb-16">
-//           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-//             Válassza ki az <span className="text-gradient">Ideális Csomagot</span>
-//           </h1>
-//           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-//             Rugalmas árazási modellünk minden igénynek megfelel. Minden szolgáltatásunkra 100% elégedettségi garanciát vállalunk.
-//           </p>
-//         </div>
+  const [selectedFrequency, setSelectedFrequency] = useState(1); 
+  const [price, setPrice] = useState(0);
+  const [firstTimePrice, setFirstTimePrice] = useState(0);
+  
+  // Surface area (minutes per 10m²)
+  const [surface, setSurface] = useState(0);
+  const surfaceMinutesPer10m2 = 15; // 15 minutes per 10m²
 
-//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
-//           {/* Left side - Price Display */}
-//           <motion.div
-//             initial={{ opacity: 0, x: -20 }}
-//             animate={{ opacity: 1, x: 0 }}
-//             transition={{ duration: 0.8 }}
-//             className="bg-white rounded-2xl p-8 shadow-lg"
-//           >
-//             <div className="text-center">
-//               <h2 className="text-3xl font-bold mb-4">Kalkulált Ár</h2>
-//               <div className="text-5xl font-bold text-blue-600 mb-2">
-//                 <span>{calculatedPrice}</span> Ft
-//               </div>
-//               <p className="text-gray-600">/ óra</p>
-//             </div>
+  // Bathrooms (minutes per bathroom)
+  const [bathrooms, setBathrooms] = useState(1);
+  const bathroomMinutes = 15; // 15 minutes per bathroom
 
-//             <div className="mt-8 pt-8 border-t border-gray-200">
-//               <h3 className="text-xl font-semibold mb-6">Az ár tartalmazza</h3>
-//               <ul className="space-y-4">
-//                 <li className="flex items-center text-gray-700">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   Professzionális takarítószerek
-//                 </li>
-//                 <li className="flex items-center text-gray-700">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   Képzett személyzet
-//                 </li>
-//                 <li className="flex items-center text-gray-700">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   Biztosítás
-//                 </li>
-//                 <li className="flex items-center text-gray-700">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   100% Elégedettségi garancia
-//                 </li>
-//               </ul>
-//             </div>
+  // Pets (additional minutes)
+  const [pets, setPets] = useState(0);
+  const petMinutes = 30; // 30 minutes for pets
 
-//             <div className="mt-8 pt-8 border-t border-gray-200">
-//               <div className="bg-blue-50 rounded-xl p-6">
-//                 <h4 className="text-lg font-semibold text-blue-800 mb-2">Első Alkalom Kedvezmény</h4>
-//                 <p className="text-blue-600">
-//                   Az első takarításra <span className="font-bold">15% kedvezményt</span> biztosítunk!
-//                 </p>
-//               </div>
-//             </div>
-//           </motion.div>
+  // Additional options (minutes)
+  const [fridge, setFridge] = useState(0);
+  const [microwave, setMicrowave] = useState(0);
+  const [oven, setOven] = useState(0);
+  const [kitchenHood, setKitchenHood] = useState(0);
+  const [surfaceRugs, setSurfaceRugs] = useState(0);
 
-//           {/* Right side - Calculator Form */}
-//           <motion.div
-//             initial={{ opacity: 0, x: 20 }}
-//             animate={{ opacity: 1, x: 0 }}
-//             transition={{ duration: 0.8 }}
-//             className="bg-white rounded-2xl p-8 shadow-lg"
-//           >
-//             <h2 className="text-2xl font-bold mb-6">Árajánlat Kalkulátor</h2>
-//             <form className="space-y-6">
-//               {/* Placeholder for questions - will be updated based on your requirements */}
-//               <div className="space-y-4">
-//                 <div>
-//                   <label className="block text-sm font-medium text-gray-700 mb-2">
-//                     Kérdés 1
-//                   </label>
-//                   <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-//                     <option>Válasszon...</option>
-//                   </select>
-//                 </div>
-//                 <div>
-//                   <label className="block text-sm font-medium text-gray-700 mb-2">
-//                     Kérdés 2
-//                   </label>
-//                   <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-//                     <option>Válasszon...</option>
-//                   </select>
-//                 </div>
-//                 <div>
-//                   <label className="block text-sm font-medium text-gray-700 mb-2">
-//                     Kérdés 3
-//                   </label>
-//                   <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-//                     <option>Válasszon...</option>
-//                   </select>
-//                 </div>
-//               </div>
+  const fridgeMinutes = 30;
+  const microwaveMinutes = 30;
+  const ovenMinutes = 120;
+  const hoodMinutes = 30;
+  const rugMinutesPer10m2 = 10; // 10 minutes per 10m² of rugs
 
-//               <button
-//                 type="submit"
-//                 className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center space-x-2"
-//               >
-//                 <span>Kalkulálás</span>
-//                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 7l6 6-6 6"/>
-//                 </svg>
-//               </button>
-//             </form>
+  useEffect(() => {
+    // Calculate total minutes based on all options
+    const surfaceMinutes = (surface / 10) * surfaceMinutesPer10m2;
+    const bathroomTotalMinutes = bathrooms * bathroomMinutes;
+    const petTotalMinutes = pets * petMinutes;
+    const rugTotalMinutes = (surfaceRugs / 10) * rugMinutesPer10m2;
+    
+    const totalMinutes = 
+      surfaceMinutes +
+      bathroomTotalMinutes +
+      petTotalMinutes +
+      fridge +
+      microwave +
+      oven +
+      kitchenHood +
+      rugTotalMinutes;
 
-//             <div className="mt-8 pt-8 border-t border-gray-200">
-//               <h3 className="text-lg font-semibold mb-4">Miért válasszon minket?</h3>
-//               <ul className="space-y-3">
-//                 <li className="flex items-start">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   <span className="text-gray-600">Rugalmas időbeosztás</span>
-//                 </li>
-//                 <li className="flex items-start">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   <span className="text-gray-600">Professzionális eszközök és tisztítószerek</span>
-//                 </li>
-//                 <li className="flex items-start">
-//                   <svg className="w-5 h-5 text-blue-500 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-//                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"/>
-//                   </svg>
-//                   <span className="text-gray-600">Tapasztalt és megbízható személyzet</span>
-//                 </li>
-//               </ul>
-//             </div>
-//           </motion.div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
+    // Calculate price based on minutes and frequency
+    let calculatedPrice = (totalMinutes / 60) * mainPrice;
+    
+    // Ensure minimum price of 5000 ft for areas between 0 and 30m²
+    if (surface <= 30) {
+      calculatedPrice = Math.max(5000, calculatedPrice);
+    }
+    
+    // Apply frequency multiplier
+    const selectedOption = frequencyOptions.find(option => option.id === selectedFrequency);
+    if (selectedOption) {
+      calculatedPrice *= selectedOption.multiplier;
+    }
 
-// export default Pricing; 
+    setPrice(Number(calculatedPrice.toFixed(2)));
+    
+    // Calculate first-time price with 30% discount
+    const firstTimeCalculatedPrice = calculatedPrice * 0.70;
+    setFirstTimePrice(Number(firstTimeCalculatedPrice.toFixed(2)));
+  }, [
+    surface,
+    bathrooms,
+    pets,
+    fridge,
+    microwave,
+    oven,
+    kitchenHood,
+    surfaceRugs,
+    selectedFrequency
+  ]);
+
+  const handleFrequencyChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedFrequency(Number(event.target.value));
+  };
+
+  return (
+    <div className="mb-10 mt-52 pt-24 px-4 flex flex-col items-center" id="pricing">
+      <h1 className="text-4xl mb-8 text-center font-black tablet:text-[3rem]">
+        {t('pricing.title')}
+      </h1>
+      <h5 className="text-xl mb-8 text-center font-medium">
+        {t('pricing.subtitle')}
+      </h5>
+      <div className="flex flex-row tablet:flex-row items-start justify-around w-full gap-8">
+        {/* Left Side - Form Inputs */}
+        <div className="flex flex-col tablet:w-2/3 space-y-6">
+          {/* Frequency of Cleaning */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <CiCalendar
+                size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"
+              />
+              {t('pricing.frequency.title')}
+            </div>
+            <div className="flex flex-row space-x-5">
+              {frequencyOptions.map((option) => (
+                <label key={option.id} className="flex items-center">
+                  <input
+                    type="radio"
+                    value={option.id}
+                    className="mr-2"
+                    checked={selectedFrequency === option.id}
+                    onChange={handleFrequencyChange}
+                  />
+                  {t(`pricing.frequency.${option.id === 1 ? 'weekly' : 
+                      option.id === 2 ? 'biweekly' : 
+                      option.id === 3 ? 'monthly' : 'oneTime'}`)}
+                </label>
+              ))}
+            </div>
+          </div>
+
+          {/* Surface Area */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <BsHouse
+                size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"
+              />
+              {t('pricing.surface.title')}
+            </div>
+            <div className="flex items-center">
+              <Slider
+                handleStyle={{ background: "#1e90ff", borderColor: "#1e90ff" }}
+                defaultValue={0}
+                value={surface}
+                min={0}
+                max={300}
+                step={10}
+                onChange={(e) => setSurface(Number(e))}
+              />
+              <p className="ml-4">{surface}{t('pricing.surface.unit')}</p>
+            </div>
+          </div>
+
+          {/* Bathrooms */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <PiToiletLight
+                size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"/>
+              {t('pricing.bathrooms.title')}
+            </div>
+            <div className="flex items-center">
+              <Slider
+                handleStyle={{ background: "#1e90ff", borderColor: "#1e90ff" }}
+                defaultValue={1}
+                min={1}
+                max={5}
+                step={1}
+                onChange={(e) => setBathrooms(Number(e))}
+              />
+              <p className="ml-4">{bathrooms} {t('pricing.bathrooms.unit')}</p>
+            </div>
+          </div>
+
+          {/* Surface Rugs */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <PiRug
+               size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"/>
+              {t('pricing.rugs.title')}
+            </div>
+            <div className="flex items-center">
+              <Slider
+                handleStyle={{ background: "#1e90ff", borderColor: "#1e90ff" }}
+                defaultValue={0}
+                min={0}
+                max={surface}
+                step={10}
+                onChange={(e) => setSurfaceRugs(Number(e))}
+              />
+              <p className="ml-4">{surfaceRugs}{t('pricing.rugs.unit')}</p>
+            </div>
+          </div>
+
+          {/* Pets */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <PiDogLight
+                size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"/>
+              {t('pricing.pets.title')}
+            </div>
+            <div className="flex space-x-4">
+              <label className="flex items-center">
+                <input
+                  type="radio"
+                  className="mr-2"
+                  checked={pets === 1}
+                  onChange={() => setPets(1)}
+                />
+                {t('pricing.pets.yes')}
+              </label>
+              <label className="flex items-center">
+                <input
+                  type="radio"
+                  className="mr-2"
+                  checked={pets === 0}
+                  onChange={() => setPets(0)}
+                />
+                {t('pricing.pets.no')}
+              </label>
+            </div>
+          </div>
+
+          {/* Options */}
+          <div>
+            <div className="text-md flex items-center font-semibold mb-4">
+              <MdOutlineKitchen
+               size={24}
+                color="white"
+                className="bg-sky-400 rounded-full p-1 mr-2"/>
+              {t('pricing.options.title')}
+            </div>
+            <div className="flex flex-wrap gap-4">
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  onChange={(e) => setFridge(e.target.checked ? fridgeMinutes : 0)}
+                />
+                {t('pricing.options.fridge')}
+              </label>
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  onChange={(e) => setMicrowave(e.target.checked ? microwaveMinutes : 0)}
+                />
+                {t('pricing.options.microwave')}
+              </label>
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  onChange={(e) => setOven(e.target.checked ? ovenMinutes : 0)}
+                />
+                {t('pricing.options.oven')}
+              </label>
+              <label className="flex items-center">
+                <input
+                  type="checkbox"
+                  onChange={(e) => setKitchenHood(e.target.checked ? hoodMinutes : 0)}
+                />
+                {t('pricing.options.hood')}
+              </label>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side - Price Summary */}
+        <div className="tablet:w-1/3 sticky top-32 flex flex-col items-center space-y-6 p-6 bg-gray-100 rounded-lg">
+          <h2 className="text-2xl font-bold">{t('pricing.priceSummary')}</h2>
+          <div className="text-lg mb-4 w-full">
+            <div className="flex justify-between mt-2">
+              <span>{t('pricing.price')}:</span>
+              <span>{price} ft</span>
+            </div>
+            <div className="flex justify-between mt-2">
+              <span>{t('pricing.firstTimeDiscount')}:</span>
+              <span>{firstTimePrice} ft</span>
+            </div>
+          </div>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="w-full px-8 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all transform hover:scale-105 active:scale-95 text-sm font-semibold text-center cursor-pointer"
+          >
+            {t('pricing.getDiscount')}
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Pricing;

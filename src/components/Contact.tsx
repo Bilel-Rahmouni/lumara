@@ -1,59 +1,46 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import emailjs from '@emailjs/browser';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 import { useState } from 'react';
 import hr from '../assets/hr.jpg';
 
 const Contact = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
-  const [isLoading, setIsLoading] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [formStatus, setFormStatus] = useState<{
+    type: "success" | "error";
+    message: string;
+  } | null>(null);
 
-   
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsLoading(true);
-    setSubmitStatus('idle');
+    setFormStatus(null);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
     try {
-      const response = await emailjs.sendForm(
-        'service_2wlmo6t',
-        'template_2mtkwdl',
-        e.target as HTMLFormElement,
-        'lhT2wn9mA1-2WH2SK'
-      );
+      const response = await fetch("https://formspree.io/f/xkgjrqyd", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
 
-      if (response.status === 200) {
-        setSubmitStatus('success');
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          message: ''
+      if (response.ok) {
+        setFormStatus({
+          type: "success",
+          message: t("contact.form.success"),
         });
+        form.reset();
       } else {
-        throw new Error('Failed to send email');
+        throw new Error("Form submission failed");
       }
     } catch (error) {
-      console.error('Error sending email:', error);
-      setSubmitStatus('error');
-    } finally {
-      setIsLoading(false);
+      setFormStatus({
+        type: "error",
+        message: t("contact.form.error"),
+      });
     }
   };
 
@@ -83,19 +70,51 @@ const Contact = () => {
               className="bg-gray-50 rounded-2xl p-8"
             >
               <div className="space-y-8">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('contact.info.phone')}</h3>
-                  <p className="text-gray-600">+36 20 264 41 18</p>
+                <div className="flex items-center space-x-4">
+                  <FaPhone
+                    size={24}
+                    color="white"
+                    className="bg-sky-400 rounded-full p-1"
+                  />
+                  <div>
+                    <h3 className="font-semibold">{t('contact.info.phone')}</h3>
+                    <p>+36 30 123 4567</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('contact.info.email')}</h3>
-                  <p className="text-gray-600">info@lumara.hu</p>
+                <div className="flex items-center space-x-4">
+                  <FaEnvelope
+                    size={24}
+                    color="white"
+                    className="bg-sky-400 rounded-full p-1"
+                  />
+                  <div>
+                    <h3 className="font-semibold">{t('contact.info.email')}</h3>
+                    <p>info@lumara.hu</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('contact.info.hoursTitle')}</h3>
-                  <p className="text-gray-600">
-                    {t('contact.info.hours.monday')} - {t('contact.info.hours.sunday')}: 6:00 - 20:00
-                  </p>
+                <div className="flex items-center space-x-4">
+                  <FaMapMarkerAlt
+                    size={24}
+                    color="white"
+                    className="bg-sky-400 rounded-full p-1"
+                  />
+                  <div>
+                    <h3 className="font-semibold">{t('contact.info.address')}</h3>
+                    <p>1234 Budapest, Hungary</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <FaClock
+                    size={24}
+                    color="white"
+                    className="bg-sky-400 rounded-full p-1"
+                  />
+                  <div>
+                    <h3 className="font-semibold">{t('contact.info.hoursTitle')}</h3>
+                    <p>{t('contact.info.hours.monday')} - {t('contact.info.hours.friday')}: 9:00 - 18:00</p>
+                    <p>{t('contact.info.hours.saturday')}: 9:00 - 14:00</p>
+                    <p>{t('contact.info.hours.sunday')}: {t('contact.info.hours.closed')}</p>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -117,8 +136,6 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
-                    value={formData.name}
-                    onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder={t('contact.form.name')}
@@ -132,8 +149,6 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    value={formData.email}
-                    onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder={t('contact.form.email')}
@@ -147,8 +162,6 @@ const Contact = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder={t('contact.form.phone')}
@@ -161,38 +174,34 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
-                    value={formData.message}
-                    onChange={handleChange}
                     required
                     rows={4}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     placeholder={t('contact.form.message')}
                   />
                 </div>
+                {formStatus && (
+                  <div
+                    className={`p-4 rounded ${
+                      formStatus.type === "success"
+                        ? "bg-green-100 text-green-700"
+                        : "bg-red-100 text-red-700"
+                    }`}
+                  >
+                    {formStatus.message}
+                  </div>
+                )}
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   type="submit"
-                  disabled={isLoading}
                   className={`w-full py-3 rounded-lg font-semibold text-white transition-colors ${
-                    isLoading 
-                      ? 'bg-blue-400 cursor-not-allowed' 
-                      : 'bg-blue-600 hover:bg-blue-700'
+                    formStatus ? 'bg-blue-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700'
                   }`}
                 >
-                  {isLoading ? 'Sending...' : t('contact.form.submit')}
+                  {formStatus ? 'Sending...' : t('contact.form.submit')}
                 </motion.button>
               </form>
-              {submitStatus === 'success' && (
-                <p className="mt-4 text-green-600 text-center">
-                  {t('contact.form.success')}
-                </p>
-              )}
-              {submitStatus === 'error' && (
-                <p className="mt-4 text-red-600 text-center">
-                  {t('contact.form.error')}
-                </p>
-              )}
             </motion.div>
           </div>
 
