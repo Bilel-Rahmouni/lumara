@@ -90,7 +90,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            <LanguageSelector />
+            {!isMenuOpen && <LanguageSelector />}
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -98,7 +98,7 @@ const Header = () => {
               className="w-12 h-12 flex items-center justify-center rounded-xl hover:bg-gray-800/50 transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              <div className="relative w-6 h-5">
+              <div className="relative w-6 h-5 flex items-center justify-center">
                 <span
                   className={`absolute w-full h-0.5 transform transition-all duration-300 ${
                     scrolled ? 'bg-gray-600' : 'bg-gray-300'
@@ -153,7 +153,7 @@ const Header = () => {
                     {item.title}
                   </Link>
                 ))}
-                <LanguageSelector />
+                {isMenuOpen && <LanguageSelector />}
                 <button 
                   className={`w-full px-6 py-3 rounded-xl hover:shadow-lg transition-all text-sm font-semibold ${
                     scrolled
@@ -161,11 +161,13 @@ const Header = () => {
                       : 'bg-white text-gray-900 hover:bg-gray-100'
                   }`}
                   onClick={() => {
-                    const contactSection = document.getElementById('contact');
-                    if (contactSection) {
-                      contactSection.scrollIntoView({ behavior: 'smooth' });
-                    }
                     setIsMenuOpen(false);
+                    setTimeout(() => {
+                      const contactSection = document.getElementById('contact');
+                      if (contactSection) {
+                        contactSection.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }, 100);
                   }}
                 >
                   {t('header.quote')}

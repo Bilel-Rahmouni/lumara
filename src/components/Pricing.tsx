@@ -102,19 +102,19 @@ const Pricing = () => {
   };
 
   return (
-    <div className="mb-10 mt-52 pt-24 px-4 flex flex-col items-center" id="pricing">
-      <h1 className="text-4xl mb-8 text-center font-black tablet:text-[3rem]">
+    <div className="mb-10 mt-32 sm:mt-52 pt-12 sm:pt-24 px-4 md:px-8 lg:px-16 flex flex-col items-center" id="pricing">
+      <h1 className="text-3xl sm:text-4xl mb-4 sm:mb-8 text-center font-black">
         {t('pricing.title')}
       </h1>
-      <h5 className="text-xl mb-8 text-center font-medium">
+      <h5 className="text-lg sm:text-xl mb-6 sm:mb-8 text-center font-medium">
         {t('pricing.subtitle')}
       </h5>
-      <div className="flex flex-row tablet:flex-row items-start justify-around w-full gap-8">
+      <div className="flex flex-col md:flex-row items-start justify-around w-full gap-6 sm:gap-8">
         {/* Left Side - Form Inputs */}
-        <div className="flex flex-col tablet:w-2/3 space-y-6">
+        <div className="flex flex-col w-full md:w-2/3 space-y-4 sm:space-y-6">
           {/* Frequency of Cleaning */}
           <div>
-            <div className="text-md flex items-center font-semibold mb-4">
+            <div className="text-md flex items-center font-semibold mb-3 sm:mb-4">
               <CiCalendar
                 size={24}
                 color="white"
@@ -122,7 +122,7 @@ const Pricing = () => {
               />
               {t('pricing.frequency.title')}
             </div>
-            <div className="flex flex-row space-x-5">
+            <div className="flex flex-wrap gap-3 sm:gap-5">
               {frequencyOptions.map((option) => (
                 <label key={option.id} className="flex items-center">
                   <input
@@ -282,9 +282,9 @@ const Pricing = () => {
         </div>
 
         {/* Right Side - Price Summary */}
-        <div className="tablet:w-1/3 sticky top-32 flex flex-col items-center space-y-6 p-6 bg-gray-100 rounded-lg">
-          <h2 className="text-2xl font-bold">{t('pricing.priceSummary')}</h2>
-          <div className="text-lg mb-4 w-full">
+        <div className="w-full md:w-1/3 sticky top-24 sm:top-32 flex flex-col items-center space-y-4 sm:space-y-6 p-4 sm:p-6 bg-gray-100 rounded-lg">
+          <h2 className="text-xl sm:text-2xl font-bold">{t('pricing.priceSummary')}</h2>
+          <div className="text-base sm:text-lg mb-4 w-full">
             <div className="flex justify-between mt-2">
               <span>{t('pricing.price')}:</span>
               <span>{price} ft</span>
@@ -298,7 +298,7 @@ const Pricing = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="w-full px-8 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all transform hover:scale-105 active:scale-95 text-sm font-semibold text-center cursor-pointer"
+            className="w-full px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all transform hover:scale-105 active:scale-95 text-sm font-semibold text-center cursor-pointer"
           >
             {t('pricing.getDiscount')}
           </Link>

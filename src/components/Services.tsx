@@ -83,16 +83,22 @@ const Services = () => {
               transition={{ duration: 0.8 }}
               className="text-left"
             >
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-8">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4 sm:mb-8">
                 {t('hero.title')}
               </h1>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8">
                 {t('hero.description')}
               </p>
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-colors duration-200"
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
               >
                 {t('hero.cta')}
               </motion.button>
