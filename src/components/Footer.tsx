@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import pxlzLogo from '../assets/pxlz_logo.png';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -80,6 +81,19 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Lumara. {t('footer.rights')}</p>
+        </div>
+
+        {/* Copyright and Developed by */}
+        <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-400 text-sm">
+            © {new Date().getFullYear()} Lumara. {t('footer.rights')}
+          </p>
+          <div className="flex items-center space-x-2 mt-4 md:mt-0">
+            <span className="text-gray-400 text-sm">Developed by:</span>
+            <a href="https://pxlzstudio.com" target="_blank" rel="noopener noreferrer">
+              <img src={pxlzLogo} alt="PXLZ Logo" className="h-6 hover:opacity-80 transition-opacity" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
