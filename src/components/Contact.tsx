@@ -78,7 +78,7 @@ const Contact = () => {
                   />
                   <div>
                     <h3 className="font-semibold">{t('contact.info.phone')}</h3>
-                    <p>+36 30 123 4567</p>
+                    <p>+36 20 264 41 18</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -91,18 +91,7 @@ const Contact = () => {
                     <h3 className="font-semibold">{t('contact.info.email')}</h3>
                     <p>info@lumara.hu</p>
                   </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <FaMapMarkerAlt
-                    size={24}
-                    color="white"
-                    className="bg-sky-400 rounded-full p-1"
-                  />
-                  <div>
-                    <h3 className="font-semibold">{t('contact.info.address')}</h3>
-                    <p>1234 Budapest, Hungary</p>
-                  </div>
-                </div>
+                </div> 
                 <div className="flex items-center space-x-4">
                   <FaClock
                     size={24}
@@ -111,9 +100,7 @@ const Contact = () => {
                   />
                   <div>
                     <h3 className="font-semibold">{t('contact.info.hoursTitle')}</h3>
-                    <p>{t('contact.info.hours.monday')} - {t('contact.info.hours.friday')}: 9:00 - 18:00</p>
-                    <p>{t('contact.info.hours.saturday')}: 9:00 - 14:00</p>
-                    <p>{t('contact.info.hours.sunday')}: {t('contact.info.hours.closed')}</p>
+                    <p>{t('contact.info.hours.monday')} - {t('contact.info.hours.sunday')}: 07:00 - 20:00</p> 
                   </div>
                 </div>
               </div>
