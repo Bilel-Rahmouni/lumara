@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import { FaPhone, FaEnvelope,  FaClock } from "react-icons/fa";
 import { useState } from 'react';
 import hr from '../assets/hr.jpg';
 

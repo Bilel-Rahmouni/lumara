@@ -79,15 +79,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Lumara. {t('footer.rights')}</p>
-        </div>
+        
 
         {/* Copyright and Developed by */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Lumara. {t('footer.rights')}
           </p>
+          <a href="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm mt-2 inline-block">
+            Privacy Policy
+          </a> 
           <div className="flex items-center space-x-2 mt-4 md:mt-0">
             <span className="text-gray-400 text-sm">Developed by:</span>
             <a href="https://pxlzstudio.com" target="_blank" rel="noopener noreferrer">

@@ -4,7 +4,7 @@
     "services": "Services",
     "pricing": "Tarifs",
     "contact": "Contact",
-    "quote": "Demander un Devis"
+    "quote": "Obtenir un Devis"
   },
   "hero": {
     "title": "Nettoyage Professionnel",
@@ -124,17 +124,177 @@
     }
   },
   "footer": {
-    "about": "À Propos",
+    "about": "À propos",
     "services": "Services",
     "contact": "Contact",
     "rights": "Tous droits réservés",
-    "description": "Services professionnels de nettoyage de la plus haute qualité",
+    "description": "Services de nettoyage professionnels de la plus haute qualité",
     "serviceList": {
       "general": "Nettoyage Général",
       "windows": "Nettoyage des Fenêtres",
       "deep": "Nettoyage en Profondeur",
       "airbnb": "Nettoyage Airbnb",
-      "office": "Nettoyage de Bureaux"
+      "office": "Nettoyage de Bureau"
     }
+  },
+  "privacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière Mise à Jour",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Chez Lumara, nous prenons votre confidentialité au sérieux. Cette Politique de Confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous utilisez nos services de nettoyage.",
+        "consent": "En utilisant nos services, vous consentez à la collecte et à l'utilisation des informations conformément à cette politique."
+      },
+      "informationCollection": {
+        "title": "Collecte d'Informations",
+        "subtitle": "Informations que Nous Collectons",
+        "content": "Nous collectons les informations que vous nous fournissez directement, notamment :",
+        "list": [
+          "Nom et coordonnées",
+          "Adresse et détails de la propriété",
+          "Informations de paiement",
+          "Préférences et exigences de service"
+        ],
+        "additionalInfo": "Nous pouvons également collecter des informations sur votre propriété et vos exigences de nettoyage pour fournir un meilleur service."
+      },
+      "informationUsage": {
+        "title": "Utilisation de Vos Informations",
+        "content": "Nous utilisons les informations collectées aux fins suivantes :",
+        "list": [
+          "Fournir et améliorer nos services de nettoyage",
+          "Traiter les paiements et les transactions",
+          "Communiquer avec vous concernant nos services",
+          "Envoyer des mises à jour de service et du matériel promotionnel",
+          "Maintenir les dossiers clients"
+        ]
+      },
+      "informationSharing": {
+        "title": "Partage d'Informations",
+        "content": "Nous pouvons partager vos informations avec :",
+        "list": [
+          "Prestataires de services qui nous aident dans nos opérations",
+          "Processeurs de paiement pour la gestion des transactions",
+          "Autorités légales lorsque requis par la loi",
+          "Partenaires commerciaux avec votre consentement"
+        ]
+      },
+      "dataSecurity": {
+        "title": "Sécurité des Données",
+        "content": "Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations personnelles contre tout accès, modification, divulgation ou destruction non autorisés."
+      },
+      "userRights": {
+        "title": "Vos Droits",
+        "content": "Vous avez le droit de :",
+        "list": [
+          "Accéder à vos informations personnelles",
+          "Corriger les données inexactes",
+          "Demander la suppression de vos données",
+          "Vous désabonner des communications marketing",
+          "Déposer une plainte auprès des autorités de régulation"
+        ]
+      },
+      "contact": {
+        "title": "Nous Contacter",
+        "content": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :",
+        "email": "Email : info@lumara.hu",
+        "phone": "Téléphone : +36 20 264 41 18"
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "questions": [
+      {
+        "id": "0",
+        "question": "Est-il nécessaire de s'engager dans un contrat de service à long terme ?",
+        "answer": "Pas du tout. Nos services sont adaptés à vos besoins spécifiques et conçus pour s'intégrer parfaitement dans votre emploi du temps chargé. Nous n'exigeons pas de contrats ou d'engagements à long terme. Cependant, vous avez la possibilité de choisir un contrat à long terme si vous le préférez."
+      },
+      {
+        "id": "1",
+        "question": "Quel est le nombre minimum d'heures requis pour effectuer les tâches de nettoyage ?",
+        "answer": "Notre durée minimale de tâche est fixée à 1 heure."
+      },
+      {
+        "id": "2",
+        "question": "Fournissez-vous les produits de nettoyage ?",
+        "answer": "Cela dépend de vos besoins. Nous recommandons d'utiliser vos propres produits de nettoyage pour assurer la familiarité, la personnalisation et la commodité. Si vous avez des préférences ou des exigences spécifiques, nous sommes heureux de les accommoder pour assurer votre satisfaction. Si nécessaire, nous pouvons utiliser nos produits de nettoyage."
+      },
+      {
+        "id": "3",
+        "question": "Que comprend le nettoyage régulier ?",
+        "answer": "Cuisine :\n- Essuyage des plans de travail et des surfaces\n- Nettoyage et désinfection de l'évier\n- Essuyage des façades des armoires\n- Essuyage des tables et des chaises\n- Nettoyage de la cuisinière et de la hotte\n- Suppression des toiles d'araignées visibles\n- Balayage et lavage des sols\n\nSalle de bain :\n- Nettoyage et désinfection des toilettes\n- Nettoyage et désinfection de l'évier, du robinet et du plan de travail\n- Essuyage des miroirs et autres surfaces vitrées\n- Nettoyage et désinfection de la douche ou de la baignoire\n- Suppression des résidus de savon et du calcaire des portes de douche\n- Nettoyage et désinfection du sol de la salle de bain, y compris derrière les toilettes et autour des appareils\n- Nettoyage et désinfection de toutes les surfaces supplémentaires comme les étagères ou les armoires\n- Suppression des toiles d'araignées visibles\n\nSalon :\n- Dépoussiérage et essuyage de toutes les surfaces, y compris les meubles, les étagères et l'électronique\n- Aspiration ou balayage des sols\n- Nettoyage et polissage de toutes les surfaces vitrées comme les miroirs et les tables basses\n- Suppression des toiles d'araignées visibles\n\nChambres :\n- Essuyage de toutes les surfaces, y compris les meubles, les tables de nuit et les lampes\n- Aspiration ou balayage des sols\n- Nettoyage des miroirs ou des surfaces vitrées\n- Vidage et nettoyage des poubelles\n- Suppression des toiles d'araignées visibles\n\nCouloir :\n- Essuyage de toutes les surfaces\n- Aspiration ou balayage des sols, y compris les tapis ou les couloirs\n- Nettoyage des miroirs ou des surfaces vitrées\n- Suppression des toiles d'araignées visibles"
+      },
+      {
+        "id": "4",
+        "question": "Fournissez-vous les produits de nettoyage ?",
+        "answer": "Cela dépend de vos besoins. Nous pouvons utiliser nos produits de nettoyage, mais nous pouvons aussi utiliser vos propres produits de nettoyage pour assurer la confidentialité, la personnalisation et la commodité. Si vous avez des préférences ou des exigences spécifiques, nous sommes heureux de les accommoder pour assurer votre satisfaction."
+      },
+      {
+        "id": "5",
+        "question": "Que puis-je attendre lors de mon premier rendez-vous ?",
+        "answer": "Nous serons à votre porte à l'heure convenue, entièrement équipés de tout le matériel de nettoyage nécessaire pour une séance de nettoyage complète à votre domicile ou au bureau. (Nous pouvons aussi utiliser votre équipement.) Le premier rendez-vous prend généralement le plus de temps, car nous devons apprendre à connaître le nouvel environnement et commencer à fond le processus de nettoyage."
+      },
+      {
+        "id": "6",
+        "question": "Y a-t-il quelque chose à préparer avant notre arrivée ?",
+        "answer": "La préparation optimale consiste à dégager autant que possible pour faciliter l'accès au personnel de nettoyage. Cela leur permet de se concentrer sur l'élimination efficace de la poussière et de la saleté. Par exemple, il serait bénéfice de retirer les jouets ou autres objets du sol à l'avance."
+      },
+      {
+        "id": "7",
+        "question": "Puis-je m'attendre à avoir la même personne de nettoyage pour chaque visite ?",
+        "answer": "Absolument. Vous pouvez compter sur le fait d'avoir systématiquement la même personne ou équipe de nettoyage assignée à chaque visite. Nous comprenons l'importance d'avoir une personne ou une équipe familière et fiable pour gérer vos besoins de nettoyage. Qu'il s'agisse d'un seul travailleur ou d'une paire de nettoyeurs, vous aurez la même équipe à chaque fois. En cas de maladie ou d'urgences imprévues, nous vous contacterons immédiatement pour prendre des dispositions."
+      },
+      {
+        "id": "8",
+        "question": "Ma présence est-elle requise pendant le processus de nettoyage ?",
+        "answer": "Certains clients choisissent de planifier des rendez-vous de nettoyage pendant qu'ils sont au travail ou occupés ailleurs pendant la journée, tandis que d'autres préfèrent être présents à la maison pendant la séance de nettoyage. Le choix vous appartient entièrement. Soyez assuré que, quelles que soient vos préférences, nous nous engageons à fournir un service de nettoyage de première classe qui répond à vos attentes."
+      },
+      {
+        "id": "9",
+        "question": "Quel est le prix du service de nettoyage ?",
+        "answer": "Le prix dépend toujours de la taille du bâtiment, de la taille des tapis, des animaux domestiques et du fait que vous ayez besoin que nous nettoyions des objets supplémentaires. Notre tarif horaire est de 195 DKK + TVA. Pour le nettoyage mensuel ou ponctuel, le tarif horaire est de 243,75 kr. + TVA. Grâce à notre campagne, vous pouvez obtenir une réduction de 30% sur votre premier nettoyage."
+      },
+      {
+        "id": "10",
+        "question": "Comment puis-je économiser de l'argent avec la déduction de service ?",
+        "answer": "Si vous engagez des services de nettoyage privés, vous pouvez potentiellement économiser considérablement sur vos dépenses de nettoyage.\n\nL'augmentation récente de la déduction de nettoyage apporte des changements importants et offre une réduction impressionnante de 26% des coûts de nettoyage. À partir de janvier 2024, cette déduction augmente à 11 900 DKK par an pour chaque personne de plus de 18 ans vivant à l'adresse.\n\nPar exemple, si votre surface habitable est de 70 mètres carrés, un service de nettoyage standard pourrait vous coûter 390 DKK (TTC). Mais avec la déduction en jeu, ce prix tombe à seulement 288,6 DKK (TTC).\n\nCela peut vous apporter des économies importantes tout en maintenant un environnement de vie étincelant.\n\nEn savoir plus sur la déduction ici : https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
+      },
+      {
+        "id": "11",
+        "question": "Que couvre la déduction de service ?",
+        "answer": "Nettoyage régulier :\n- Lavage et séchage des surfaces dans la maison\n- Nettoyage des toilettes et des salles de bain\n- Aspiration, lavage des sols et nettoyage\n- Vaisselle, lessive et repassage\n- Nettoyage ou lavage des tapis, rideaux, stores, etc."
+      },
+      {
+        "id": "12",
+        "question": "Qui peut bénéficier de la déduction de service ?",
+        "answer": "Que vous soyez propriétaire ou locataire de votre maison, vous êtes éligible à cette déduction. Tout ce dont vous avez besoin est d'être enregistré dans le registre national à l'adresse spécifique et d'avoir au moins 18 ans. De plus, vous n'avez pas besoin de superviser ou d'approuver le processus de nettoyage. En choisissant un service de nettoyage certifié comme renklar.dk, toute charge administrative ou besoin de paperasse est supprimé. Si vous partagez votre maison avec d'autres personnes, comme des colocataires dans une situation de colocation, vous pouvez facilement partager la déduction entre vous. Effectuez simplement le paiement électroniquement pour assurer une documentation appropriée ; le paiement en espèces n'est pas éligible. Il est crucial que tous les co-résidents soient des résidents officiellement enregistrés à l'adresse pour être éligibles."
+      },
+      {
+        "id": "13",
+        "question": "Est-il possible d'annuler un rendez-vous de nettoyage prévu ?",
+        "answer": "Oui, 24 heures avant le rendez-vous précédemment convenu. Si vous annulez le rendez-vous moins de 24 heures avant, nous facturerons 200 DKK + TVA du prix du service précédemment convenu."
+      },
+      {
+        "id": "14",
+        "question": "Comment entrez-vous dans ma maison pour les rendez-vous de nettoyage prévus ?",
+        "answer": "Vous pouvez nous donner une clé.\nVous pouvez choisir de laisser une clé à un endroit spécifique.\nVous avez la possibilité de partager le code d'alarme avec nous.\nVous pouvez laisser la porte déverrouillée le jour du nettoyage prévu."
+      },
+      {
+        "id": "15",
+        "question": "Que se passe-t-il si je ne suis pas satisfait de mon nettoyage ?",
+        "answer": "Assurer votre satisfaction est notre priorité absolue. Par conséquent, nous avons une garantie de satisfaction. Si vous avez des plaintes, contactez-nous simplement dans les 24 heures suivant le nettoyage. Nous organiserons une visite de suivi dès que possible pour traiter toute zone qui n'a pas répondu à vos attentes. Ce service de nettoyage de suivi est offert sans frais supplémentaires."
+      },
+      {
+        "id": "16",
+        "question": "Quand et comment dois-je payer le service de nettoyage ?",
+        "answer": "Si vous réservez le service de nettoyage à temps, nous vous envoyons la facture juste après que le service soit effectué. Si vous avez un service continu de notre part, nous vous envoyons la facture après chaque nettoyage le premier mois, puis nous envoyons les factures une fois par mois. Vous pouvez payer par virement bancaire. Nous n'acceptons pas les espèces."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Avis Clients",
+    "subtitle": "La satisfaction de nos clients est notre priorité absolue",
+    "cta": "Contactez-nous"
   }
 } 

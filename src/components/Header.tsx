@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +9,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { t } = useTranslation();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +25,17 @@ const Header = () => {
     { title: t('header.contact'), link: 'contact' },
   ];
 
+  const handleNavigation = (link: string) => {
+    if (location.pathname === '/') {
+      const element = document.getElementById(link);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      window.location.href = `/#${link}`;
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 shadow-sm ${
@@ -33,14 +46,12 @@ const Header = () => {
     >
       <div className="container mx-auto px-6">
         <nav className="flex justify-between items-center">
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
+          <RouterLink
+            to="/"
             className="text-2xl font-bold gold-gradient cursor-pointer"
           >
             Lumara
-          </Link>
+          </RouterLink>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -51,10 +62,8 @@ const Header = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
               >
-                <Link
-                  to={item.link}
-                  smooth={true}
-                  duration={500}
+                <button
+                  onClick={() => handleNavigation(item.link)}
                   className={`text-sm font-medium relative group cursor-pointer ${
                     scrolled ? 'text-gray-700 hover:text-blue-600' : 'text-gray-300 hover:text-white'
                   }`}
@@ -63,7 +72,7 @@ const Header = () => {
                   <span className={`absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 transition-transform group-hover:scale-x-100 ${
                     scrolled ? 'bg-blue-600' : 'bg-white'
                   }`} />
-                </Link>
+                </button>
               </motion.div>
             ))}
             <motion.button
@@ -75,12 +84,7 @@ const Header = () => {
               }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                const contactSection = document.getElementById('contact');
-                if (contactSection) {
-                  contactSection.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
+              onClick={() => handleNavigation('contact')}
             >
               {t('header.quote')}
             </motion.button>
@@ -138,20 +142,20 @@ const Header = () => {
                 }`}
               >
                 {menuItems.map((item) => (
-                  <Link
+                  <button
                     key={item.link}
-                    to={item.link}
-                    smooth={true}
-                    duration={500}
-                    className={`block py-3 px-4 rounded-xl text-sm font-medium transition-colors ${
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      handleNavigation(item.link);
+                    }}
+                    className={`block w-full text-left py-3 px-4 rounded-xl text-sm font-medium transition-colors ${
                       scrolled 
                         ? 'text-gray-700 hover:text-blue-600 hover:bg-blue-50/50'
                         : 'text-gray-300 hover:text-white hover:bg-gray-700/50'
                     }`}
-                    onClick={() => setIsMenuOpen(false)}
                   >
                     {item.title}
-                  </Link>
+                  </button>
                 ))}
                 {isMenuOpen && <LanguageSelector />}
                 <button 
@@ -162,12 +166,7 @@ const Header = () => {
                   }`}
                   onClick={() => {
                     setIsMenuOpen(false);
-                    setTimeout(() => {
-                      const contactSection = document.getElementById('contact');
-                      if (contactSection) {
-                        contactSection.scrollIntoView({ behavior: 'smooth' });
-                      }
-                    }, 100);
+                    handleNavigation('contact');
                   }}
                 >
                   {t('header.quote')}

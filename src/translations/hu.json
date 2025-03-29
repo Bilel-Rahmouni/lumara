@@ -84,8 +84,8 @@
         "Ablakok és üvegek tisztítása"
       ]
     }
-  },
-  "pricing": {
+    },
+    "pricing": {
     "title": "Nincsenek rejtett díjak - Csak átlátható árak",
     "subtitle": "A takarítási szolgáltatásaink ára 5000 ft",
     "perHour": "per óra",
@@ -163,6 +163,171 @@
       "deep": "Mélytakarítás",
       "airbnb": "Airbnb Takarítás",
       "office": "Irodai Takarítás"
+    },
+    "description": "Szakértő takarítási szolgáltatások Budapesten és környékén. Minőségi és megbízható takarítási megoldások otthonához és irodájához.",
+    "quickLinks": "Gyors linkek",
+    "address": "1234 Budapest, Magyarország",
+    "phone": "+36 20 264 41 18",
+    "email": "info@lumara.hu",
+    "rights": "Minden jog fenntartva.",
+    "developedBy": "Fejlesztette:"
+  },
+  "reviews": {
+    "title": "Vélemények",
+    "subtitle": "Ügyfeleink elégedettsége a legfontosabb számunkra",
+    "cta": "Lépjen kapcsolatba velünk"
+  },
+  "faq": {
+    "title": "Gyakori Kérdések",
+    "questions": [
+      {
+        "id": "0",
+        "question": "Szükséges-e hosszú távú szerződés?",
+        "answer": "Egyáltalán nem. Szolgáltatásaink az Ön igényeire szabottak és úgy vannak kialakítva, hogy zökkenőmentesen illeszkedjenek a zsúfolt napirendjébe. Nem követelünk hosszú távú szerződéseket vagy elköteleződéseket. Azonban lehetősége van hosszú távú szerződést választani, ha azt preferálja."
+      },
+      {
+        "id": "1",
+        "question": "Mennyi a minimális óraszám a takarítási feladatok elvégzéséhez?",
+        "answer": "Minimális feladatidőnk 1 óra."
+      },
+      {
+        "id": "2",
+        "question": "Biztosítják a takarítási eszközöket?",
+        "answer": "Az Ön igényeitől függ. Javasoljuk, hogy használja saját takarítási eszközeit a biztonság, személyre szabás és kényelem biztosítása érdekében. Ha specifikus preferenciái vagy követelményei vannak, örömmel alkalmazkodunk hozzájuk az Ön elégedettségének biztosítása érdekében. Ha szükséges, használhatjuk saját takarítási termékeinket."
+      },
+      {
+        "id": "3",
+        "question": "Mit tartalmaz a rendszeres takarítás?",
+        "answer": "Konyha:\n- Pultok és felületek törlése\n- Mosogató tisztítása és fertőtlenítése\n- Szekrények elülső felületének törlése\n- Asztalok és székek törlése\n- Tűzhely és elszívó tisztítása\n- Látható pókhálók eltávolítása\n- Seprés és felmosás\n\nFürdőszoba:\n- WC áttörlése és fertőtlenítése\n- Mosogató, csap és pult tisztítása és fertőtlenítése\n- Tükrök és egyéb üvegfelületek törlése\n- Zuhany vagy kád tisztítása és fertőtlenítése\n- Szappanmaradványok és vízkő eltávolítása a zuhanyajtóról\n- Fürdőszoba padló tisztítása és fertőtlenítése, beleértve a WC mögött és a csatlakozások körül\n- További felületek tisztítása és fertőtlenítése, mint a polcok vagy szekrények\n- Látható pókhálók eltávolítása\n\nNappali:\n- Minden felület portörlése és törlése, beleértve a bútorokat, polcokat és elektronikát\n- Porszívózás vagy seprés\n- Üvegfelületek tisztítása és polírozása, mint a tükrök és dohányzóasztalok\n- Látható pókhálók eltávolítása\n\nHálószobák:\n- Minden felület törlése, beleértve a bútorokat, éjjeliszekrényeket és lámpákat\n- Porszívózás vagy seprés\n- Tükrök vagy üvegfelületek tisztítása\n- Szemetesek kiürítése és tisztítása\n- Látható pókhálók eltávolítása\n\nFolyosó:\n- Felületek törlése\n- Porszívózás vagy seprés, beleértve a szőnyegeket vagy futószőnyegeket\n- Tükrök vagy üvegfelületek tisztítása\n- Látható pókhálók eltávolítása"
+      },
+      {
+        "id": "4",
+        "question": "Biztosítják a takarítási eszközöket?",
+        "answer": "Az Ön igényeitől függ. Használhatjuk saját takarítási termékeinket, de használhatjuk az Ön takarítási eszközeit is a biztonság, személyre szabás és kényelem biztosítása érdekében. Ha specifikus preferenciái vagy követelményei vannak, örömmel alkalmazkodunk hozzájuk az Ön elégedettségének biztosítása érdekében."
+      },
+      {
+        "id": "5",
+        "question": "Mit várhatok az első találkozón?",
+        "answer": "Az egyeztetett időpontban az ajtójánál leszünk, teljesen felszerelve minden szükséges takarítási eszközzel egy átfogó takarítási munkamenethez az otthonában vagy irodájában. (Használhatjuk az Ön eszközeit is.) Az első találkozó általában a legtöbb időt veszi igénybe, mivel meg kell tanulnunk az új környezetet és alaposan el kell kezdenünk a takarítási folyamatot."
+      },
+      {
+        "id": "6",
+        "question": "Van valami, amit elő kell készíteni a megérkezésünk előtt?",
+        "answer": "Az optimális előkészítés annyi tárgy eltávolításából áll, amennyire csak lehetséges, hogy megkönnyítsük a takarítási személyzet hozzáférését. Ez lehetővé teszi számukra, hogy hatékonyan foglalkozzanak a por és szennyeződések eltávolításával. Például hasznos lehet előre eltávolítani a játékokat vagy más tárgyakat a padlóról."
+      },
+      {
+        "id": "7",
+        "question": "Számíthatok arra, hogy minden látogatáskor ugyanaz a takarító személy lesz?",
+        "answer": "Abszolút. Számíthat arra, hogy minden látogatáskor ugyanaz a takarító személy vagy csapat lesz kijelölve. Értjük a fontosságát annak, hogy egy ismerős és megbízható személy vagy csapat kezelje a takarítási igényeit. Legyen szó egyetlen dolgozóról vagy egy pár takarítóról, minden alkalommal ugyanaz a csapat lesz. Betegség vagy váratlan vészhelyzet esetén azonnal felvesszük Önnel a kapcsolatot a szükséges intézkedések megtételéhez."
+      },
+      {
+        "id": "8",
+        "question": "Szükséges-e a jelenlétem a takarítási folyamat során?",
+        "answer": "Néhány ügyfél úgy dönt, hogy munka közben vagy más elfoglaltság miatt időzítik a takarítási időpontot, míg mások preferálják, hogy otthon legyenek a takarítási munkamenet során. A választás teljesen Önre tartozik. Biztosíthatjuk, hogy preferenciáitól függetlenül elkötelezettek vagyunk az első osztályú takarítási szolgáltatás nyújtásában, amely megfelel elvárásainak."
+      },
+      {
+        "id": "9",
+        "question": "Mennyi a takarítási szolgáltatás ára?",
+        "answer": "Az ár mindig függ az épület méretétől, szőnyeg méretétől, háziállatoktól és attól, hogy szükséges-e további tárgyak takarítása. Órabérünk 195 DKK + ÁFA. Havi vagy egyszeri takarításhoz az órabér 243,75 kr. + ÁFA. Kampányunkon keresztül 30% kedvezményt kaphat az első takarításon."
+      },
+      {
+        "id": "10",
+        "question": "Hogyan spórolhatok a szolgáltatási levonással?",
+        "answer": "Ha magán takarítási szolgáltatást bérlő, jelentősen csökkentheti takarítási költségeit.\n\nA közelmúltban történt takarítási levonás növekedés jelentős változásokat hoz és lenyűgöző 26%-os csökkentést kínál a takarítási költségekben. 2024 januárjától ez a levonás 11.900 DKK-re nő évente minden 18 év feletti személyre, aki az adott címen él.\n\nPéldául, ha lakóterülete 70 négyzetméter, egy standard takarítási szolgáltatás 390 DKK-ba kerülhet (ÁFA-val együtt). De a levonással ez az ár mindössze 288,6 DKK-ra csökken (ÁFA-val együtt).\n\nEz jelentős megtakarítást jelenthet Önnek, miközben ragyogóan tiszta lakóközvetet biztosít.\n\nTovábbi információ a levonásról itt: https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
+      },
+      {
+        "id": "11",
+        "question": "Mit fedez a szolgáltatási levonás?",
+        "answer": "Rendszeres takarítás:\n- Felületek mosása és szárítása az otthonban\n- WC-k és fürdőszobák takarítása\n- Porszívózás, felmosás és takarítás\n- Edény mosása, ruhák mosása és vasalása\n- Szőnyegek, függönyök, redőnyök stb. takarítása vagy mosása"
+      },
+      {
+        "id": "12",
+        "question": "Ki jogosult a szolgáltatási levonásra?",
+        "answer": "Függetlenül attól, hogy tulajdonos vagy bérlő, jogosult erre a levonásra. Mindössze annyi kell, hogy be legyen jegyezve a nemzeti nyilvántartásban az adott címen és legalább 18 éves legyen. Emellett nem kell felügyelnie vagy jóváhagynia a takarítási folyamatot. Ha olyan minősített takarítási szolgáltatást választ, mint a renklar.dk, minden adminisztratív terhet vagy papírmunkát megszüntet. Ha másokkal osztozik az otthonán, például lakótársakkal egy közös lakásban, könnyen megoszthatják a levonást. Egyszerűen végezze el a fizetést elektronikusan a megfelelő dokumentáció biztosítása érdekében; készpénzes fizetés nem jogosult. Lényeges, hogy minden lakótárs hivatalosan bejegyzett lakos legyen az adott címen a jogosultsághoz."
+      },
+      {
+        "id": "13",
+        "question": "Lehetőséges-e lemondani egy előre lefoglalt takarítási időpontot?",
+        "answer": "Igen, 24 órával a korábban egyeztetett időpont előtt. Ha 24 óránál kevesebb idővel a találkozó előtt mondja le, 200 DKK + ÁFA-t számolunk fel a korábban egyeztetett szolgáltatási ár alapján."
+      },
+      {
+        "id": "14",
+        "question": "Hogyan jutnak be az otthonába a lefoglalt takarítási időpontokhoz?",
+        "answer": "Adhat nekünk kulcsot.\nVálaszthat, hogy egy meghatározott helyen hagyja a kulcsot.\nLehetősége van megosztani velünk a riasztó kódját.\nHagyhatja nyitva az ajtót a tervezett takarítási napon."
+      },
+      {
+        "id": "15",
+        "question": "Mi történik, ha nem vagyok elégedett a takarítással?",
+        "answer": "Az Ön elégedettségének biztosítása a legfőbb prioritásunk. Ezért elégedettségi garanciát kínálunk. Ha panaszai vannak, egyszerűen lépjen kapcsolatba velünk a takarítás után 24 órán belül. A lehető leghamarabb szervezünk egy követő látogatást azoknak a területeknek a kezelésére, amelyek nem feleltek meg elvárásainak. Ezt a követő takarítási szolgáltatást további költség nélkül kínáljuk."
+      },
+      {
+        "id": "16",
+        "question": "Mikor és hogyan fizethetem a takarítási szolgáltatást?",
+        "answer": "Ha időben foglalja a takarítási szolgáltatást, a szolgáltatás végrehajtása után azonnal küldjük a számlát. Ha folyamatos szolgáltatásunkat veszi igénybe, a takarítás után küldjük a számlát az első hónapban, majd havi rendszerességgel küldjük a számlákat. Banki átutalással fizethet. Nem fogadunk el készpénzt."
+      }
+    ]
+  },
+  "privacyPolicy": {
+    "title": "Adatvédelmi Tájékoztató",
+    "lastUpdated": "Utolsó frissítés",
+    "sections": {
+      "introduction": {
+        "title": "1. Bevezetés",
+        "content": "A Lumara komolyan veszi az Ön adatvédelmét. Ez az Adatvédelmi Tájékoztató elmagyarázza, hogyan gyűjtjük, használjuk, továbbítjuk és védjük az Ön adatait, amikor weboldalunkat látogatja vagy szolgáltatásainkat használja.",
+        "consent": "Kérjük, olvassa el figyelmesen ezt az adatvédelmi tájékoztatót. Weboldalunk és szolgáltatásaink használatával hozzájárul az ebben a tájékoztatóban leírt gyakorlathoz."
+      },
+      "informationCollection": {
+        "title": "2. Gyűjtött Információk",
+        "subtitle": "2.1 Személyes Adatok",
+        "content": "Személyes adatokat gyűjthetünk, amelyeket Ön önkéntesen biztosít számunkra, amikor:",
+        "list": [
+          "Kitölti kapcsolatfelvételi űrlapunkat",
+          "Árajánlatot kér",
+          "Takarítási szolgáltatást foglal",
+          "Emailben vagy telefonon kommunikál velünk"
+        ],
+        "additionalInfo": "Ezek az adatok tartalmazzák az Ön nevét, email címét, telefonszámát, címét és minden olyan további információt, amelyet Ön választ megadni."
+      },
+      "informationUsage": {
+        "title": "3. Az Információk Használata",
+        "content": "A gyűjtött információkat a következő célokra használjuk:",
+        "list": [
+          "Szolgáltatásaink biztosítása és karbantartása",
+          "Takarítási szolgáltatási kérések feldolgozása",
+          "Kommunikáció az Önnel szolgáltatásainkról",
+          "Marketing kommunikációk küldése (az Ön hozzájárulásával)",
+          "Weboldalunk és szolgáltatásaink fejlesztése"
+        ]
+      },
+      "informationSharing": {
+        "title": "4. Információk Megosztása",
+        "content": "Nem adjuk el vagy bérbe adjuk személyes adatait harmadik félnek. Az adatokat a következő esetekben oszthatjuk meg:",
+        "list": [
+          "Szolgáltatókkal, akik működésünkben segítenek",
+          "Jogvédő szervekkel, ha a törvény megköveteli",
+          "Más féllel az Ön hozzájárulásával"
+        ]
+      },
+      "dataSecurity": {
+        "title": "5. Adatbiztonság",
+        "content": "Megfelelő biztonsági intézkedéseket alkalmazunk személyes adatainak védelmére. Azonban az interneten keresztüli továbbítás egyetlen módszere sem 100%-osan biztonságos, és nem tudunk abszolút biztonságot garantálni."
+      },
+      "userRights": {
+        "title": "6. Az Ön Jogai",
+        "content": "Jogosult:",
+        "list": [
+          "Személyes adatainak elérésére",
+          "Pontatlan adatok javítására",
+          "Adatainak törlését kérni",
+          "Marketing kommunikációktól való leiratkozásra"
+        ]
+      },
+      "contact": {
+        "title": "7. Kapcsolat",
+        "content": "Ha kérdése van ezzel az Adatvédelmi Tájékoztatóval kapcsolatban, kérjük, lépjen kapcsolatba velünk:",
+        "email": "Email: info@lumara.hu",
+        "phone": "Telefon: +36 20 264 41 18"
+      }
     }
   }
 } 

@@ -136,5 +136,165 @@
       "airbnb": "Pulizia Airbnb",
       "office": "Pulizia Uffici"
     }
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo Aggiornamento",
+    "sections": {
+      "introduction": {
+        "title": "Introduzione",
+        "content": "In Lumara, prendiamo sul serio la tua privacy. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali quando utilizzi i nostri servizi di pulizia.",
+        "consent": "Utilizzando i nostri servizi, acconsenti alla raccolta e all'utilizzo delle informazioni in conformità con questa politica."
+      },
+      "informationCollection": {
+        "title": "Raccolta Informazioni",
+        "subtitle": "Informazioni che Raccogliamo",
+        "content": "Raccogliamo le informazioni che ci fornisci direttamente, inclusi:",
+        "list": [
+          "Nome e informazioni di contatto",
+          "Indirizzo e dettagli della proprietà",
+          "Informazioni di pagamento",
+          "Preferenze e requisiti del servizio"
+        ],
+        "additionalInfo": "Possiamo anche raccogliere informazioni sulla tua proprietà e sui requisiti di pulizia per fornire un servizio migliore."
+      },
+      "informationUsage": {
+        "title": "Utilizzo delle Tue Informazioni",
+        "content": "Utilizziamo le informazioni raccolte per i seguenti scopi:",
+        "list": [
+          "Fornire e migliorare i nostri servizi di pulizia",
+          "Elaborare pagamenti e transazioni",
+          "Comunicare con te riguardo ai nostri servizi",
+          "Inviare aggiornamenti del servizio e materiale promozionale",
+          "Mantenere i registri dei clienti"
+        ]
+      },
+      "informationSharing": {
+        "title": "Condivisione delle Informazioni",
+        "content": "Possiamo condividere le tue informazioni con:",
+        "list": [
+          "Fornitori di servizi che ci assistono nelle nostre operazioni",
+          "Processori di pagamento per la gestione delle transazioni",
+          "Autorità legali quando richiesto dalla legge",
+          "Partner commerciali con il tuo consenso"
+        ]
+      },
+      "dataSecurity": {
+        "title": "Sicurezza dei Dati",
+        "content": "Implementiamo misure di sicurezza appropriate per proteggere le tue informazioni personali da accesso, modifica, divulgazione o distruzione non autorizzati."
+      },
+      "userRights": {
+        "title": "I Tuoi Diritti",
+        "content": "Hai il diritto di:",
+        "list": [
+          "Accedere alle tue informazioni personali",
+          "Correggere dati imprecisi",
+          "Richiedere la cancellazione dei tuoi dati",
+          "Rinunciare alle comunicazioni di marketing",
+          "Presentare un reclamo alle autorità di regolamentazione"
+        ]
+      },
+      "contact": {
+        "title": "Contattaci",
+        "content": "Se hai domande su questa Informativa sulla Privacy, contattaci a:",
+        "email": "Email: info@lumara.hu",
+        "phone": "Telefono: +36 20 264 41 18"
+      }
+    }
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "questions": [
+      {
+        "id": "0",
+        "question": "È necessario impegnarsi in un contratto di servizio a lungo termine?",
+        "answer": "Assolutamente no. I nostri servizi sono personalizzati per soddisfare le tue esigenze specifiche e progettati per integrarsi perfettamente nel tuo programma impegnato. Non richiediamo contratti o impegni a lungo termine. Tuttavia, hai la possibilità di scegliere un contratto a lungo termine se lo preferisci."
+      },
+      {
+        "id": "1",
+        "question": "Qual è il numero minimo di ore richiesto per completare le attività di pulizia?",
+        "answer": "La nostra durata minima dell'attività è fissata a 1 ora."
+      },
+      {
+        "id": "2",
+        "question": "Fornite i prodotti per la pulizia?",
+        "answer": "Dipende dalle tue esigenze. Raccomandiamo di utilizzare i tuoi prodotti per la pulizia per garantire familiarità, personalizzazione e convenienza. Se hai preferenze o requisiti specifici, siamo felici di accoglierli per garantire la tua soddisfazione. Se necessario, possiamo utilizzare i nostri prodotti per la pulizia."
+      },
+      {
+        "id": "3",
+        "question": "Cosa include la pulizia regolare?",
+        "answer": "Cucina:\n- Pulizia dei piani di lavoro e delle superfici\n- Pulizia e disinfezione del lavello\n- Pulizia delle ante dei mobili\n- Pulizia di tavoli e sedie\n- Pulizia del fornello e della cappa\n- Rimozione delle ragnatele visibili\n- Spazzatura e lavaggio dei pavimenti\n\nBagno:\n- Pulizia e disinfezione del water\n- Pulizia e disinfezione del lavello, rubinetto e piano di lavoro\n- Pulizia degli specchi e altre superfici in vetro\n- Pulizia e disinfezione della doccia o della vasca\n- Rimozione dei residui di sapone e calcare dalle porte della doccia\n- Pulizia e disinfezione del pavimento del bagno, incluso dietro il water e intorno ai sanitari\n- Pulizia e disinfezione di eventuali superfici aggiuntive come mensole o armadi\n- Rimozione delle ragnatele visibili\n\nSoggiorno:\n- Spolveratura e pulizia di tutte le superfici, inclusi mobili, mensole ed elettronica\n- Aspirazione o spazzatura dei pavimenti\n- Pulizia e lucidatura di eventuali superfici in vetro come specchi e tavolini\n- Rimozione delle ragnatele visibili\n\nCamere da letto:\n- Pulizia di tutte le superfici, inclusi mobili, comodini e lampade\n- Aspirazione o spazzatura dei pavimenti\n- Pulizia di eventuali specchi o superfici in vetro\n- Svuotamento e pulizia di eventuali cestini\n- Rimozione delle ragnatele visibili\n\nCorridoio:\n- Pulizia di eventuali superfici\n- Aspirazione o spazzatura dei pavimenti, inclusi eventuali tappeti o runner\n- Pulizia di eventuali specchi o superfici in vetro\n- Rimozione delle ragnatele visibili"
+      },
+      {
+        "id": "4",
+        "question": "Fornite i prodotti per la pulizia?",
+        "answer": "Dipende dalle tue esigenze. Possiamo utilizzare i nostri prodotti per la pulizia, ma possiamo anche utilizzare i tuoi prodotti per la pulizia per garantire riservatezza, personalizzazione e convenienza. Se hai preferenze o requisiti specifici, siamo felici di accoglierli per garantire la tua soddisfazione."
+      },
+      {
+        "id": "5",
+        "question": "Cosa posso aspettarmi durante il mio primo appuntamento?",
+        "answer": "Saremo alla tua porta all'ora concordata, completamente equipaggiati con tutto il materiale di pulizia necessario per una sessione di pulizia completa a casa tua o in ufficio. (Possiamo anche utilizzare la tua attrezzatura.) Il primo appuntamento richiede tipicamente più tempo, poiché dobbiamo imparare a conoscere il nuovo ambiente e iniziare a fondo il processo di pulizia."
+      },
+      {
+        "id": "6",
+        "question": "C'è qualcosa da preparare prima del nostro arrivo?",
+        "answer": "La preparazione ottimale comporta liberare quanto più possibile per facilitare l'accesso al personale di pulizia. Questo permette loro di concentrarsi sull'eliminazione efficace di polvere e sporco. Per esempio, sarebbe vantaggioso rimuovere giocattoli o altri oggetti dal pavimento in anticipo."
+      },
+      {
+        "id": "7",
+        "question": "Posso aspettarmi di avere la stessa persona di pulizia per ogni visita?",
+        "answer": "Assolutamente. Puoi contare sul fatto di avere sistematicamente la stessa persona o squadra di pulizia assegnata a ogni visita. Capiamo l'importanza di avere una persona o una squadra familiare e affidabile per gestire le tue esigenze di pulizia. Che si tratti di un singolo lavoratore o di una coppia di addetti alle pulizie, avrai la stessa squadra ogni volta. In caso di malattia o emergenze impreviste, ti contatteremo immediatamente per fare accordi."
+      },
+      {
+        "id": "8",
+        "question": "La mia presenza è richiesta durante il processo di pulizia?",
+        "answer": "Alcuni clienti scelgono di programmare appuntamenti di pulizia mentre sono al lavoro o occupati altrove durante il giorno, mentre altri preferiscono essere presenti a casa durante la sessione di pulizia. La scelta è completamente tua. Sii certo che, indipendentemente dalle tue preferenze, ci impegniamo a fornire un servizio di pulizia di prima classe che soddisfa le tue aspettative."
+      },
+      {
+        "id": "9",
+        "question": "Qual è il prezzo del servizio di pulizia?",
+        "answer": "Il prezzo dipende sempre dalle dimensioni dell'edificio, dalle dimensioni dei tappeti, dagli animali domestici e dal fatto che tu abbia bisogno che puliamo oggetti extra. La nostra tariffa oraria è di 195 DKK + IVA. Per la pulizia mensile o una tantum, la tariffa oraria è di 243,75 kr. + IVA. Attraverso la nostra campagna puoi ottenere uno sconto del 30% sulla tua prima pulizia."
+      },
+      {
+        "id": "10",
+        "question": "Come posso risparmiare denaro con la detrazione del servizio?",
+        "answer": "Se assumi servizi di pulizia privati, puoi potenzialmente risparmiare considerevolmente sulle tue spese di pulizia.\n\nL'aumento recente della detrazione per la pulizia porta cambiamenti significativi e offre una riduzione impressionante del 26% dei costi di pulizia. Dal gennaio 2024, questa detrazione aumenta a 11.900 DKK all'anno per ogni persona di età superiore ai 18 anni che vive all'indirizzo.\n\nPer esempio, se la tua superficie abitativa è di 70 metri quadrati, un servizio di pulizia standard potrebbe costarti 390 DKK (IVA inclusa). Ma con la detrazione in gioco, quel prezzo scende a soli 288,6 DKK (IVA inclusa).\n\nQuesto può portarti risparmi significativi mantenendo un ambiente di vita splendente.\n\nLeggi di più sulla detrazione qui: https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
+      },
+      {
+        "id": "11",
+        "question": "Cosa copre la detrazione del servizio?",
+        "answer": "Pulizia regolare:\n- Lavaggio e asciugatura delle superfici in casa\n- Pulizia di toilette e bagni\n- Aspirazione, lavaggio dei pavimenti e pulizia\n- Lavaggio stoviglie, lavanderia e stiratura\n- Pulizia o lavaggio di tappeti, tende, persiane, ecc."
+      },
+      {
+        "id": "12",
+        "question": "Chi può ottenere la detrazione del servizio?",
+        "answer": "Che tu sia proprietario o inquilino della tua casa, hai diritto a questa detrazione. Tutto ciò di cui hai bisogno è essere registrato nel registro nazionale all'indirizzo specifico e avere almeno 18 anni. Inoltre, non hai bisogno di sorvegliare o approvare il processo di pulizia. Scegliendo un servizio di pulizia certificato come renklar.dk, qualsiasi onere amministrativo o necessità di documentazione viene rimosso. Se condividi la tua casa con altre persone, come coinquilini in una situazione di convivenza, potete facilmente dividere la detrazione tra voi. Effettua semplicemente il pagamento elettronicamente per garantire una documentazione appropriata; il pagamento in contanti non è ammissibile. È cruciale che tutti i co-residenti siano residenti ufficialmente registrati all'indirizzo per qualificarsi."
+      },
+      {
+        "id": "13",
+        "question": "È possibile annullare un appuntamento di pulizia programmato?",
+        "answer": "Sì, 24 ore prima dell'appuntamento precedentemente concordato. Se annulli l'appuntamento meno di 24 ore prima, addebiteremo 200 DKK + IVA del prezzo del servizio precedentemente concordato."
+      },
+      {
+        "id": "14",
+        "question": "Come entrate in casa mia per gli appuntamenti di pulizia programmati?",
+        "answer": "Puoi darci una chiave.\nPuoi scegliere di lasciare una chiave in un posto specifico.\nHai la possibilità di condividere il codice dell'allarme con noi.\nPuoi lasciare la porta sbloccata il giorno della pulizia programmata."
+      },
+      {
+        "id": "15",
+        "question": "Cosa succede se non sono soddisfatto della mia pulizia?",
+        "answer": "Garantire la tua soddisfazione è la nostra massima priorità. Pertanto, abbiamo una garanzia di soddisfazione. Se hai reclami, contattaci semplicemente entro 24 ore dalla pulizia. Organizzeremo una visita di follow-up il prima possibile per affrontare eventuali aree che non hanno soddisfatto le tue aspettative. Questo servizio di pulizia di follow-up è offerto senza costi aggiuntivi."
+      },
+      {
+        "id": "16",
+        "question": "Quando e come devo pagare il servizio di pulizia?",
+        "answer": "Se prenoti il servizio di pulizia in tempo, ti inviamo la fattura subito dopo che il servizio è stato eseguito. Se hai un servizio continuo da noi, ti inviamo la fattura dopo ogni pulizia il primo mese, e poi inviamo le fatture una volta al mese. Puoi pagare con bonifico bancario. Non accettiamo contanti."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Recensioni Clienti",
+    "subtitle": "La soddisfazione dei nostri clienti è la nostra massima priorità",
+    "cta": "Contattaci"
   }
 } 

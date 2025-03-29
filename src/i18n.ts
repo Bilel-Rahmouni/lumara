@@ -37,6 +37,16 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    react: {
+      useSuspense: false,
+    },
+    detection: {
+      order: ['localStorage', 'navigator'],
+      caches: ['localStorage'],
+    },
+    returnObjects: true,
+    returnNull: false,
+    returnEmptyString: false,
   });
 
 export default i18n; 

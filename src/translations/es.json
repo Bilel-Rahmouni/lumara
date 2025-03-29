@@ -4,7 +4,7 @@
     "services": "Servicios",
     "pricing": "Precios",
     "contact": "Contacto",
-    "quote": "Solicitar Presupuesto"
+    "quote": "Solicitar Cotización"
   },
   "hero": {
     "title": "Limpieza Profesional",
@@ -141,5 +141,165 @@
       "airbnb": "Limpieza Airbnb",
       "office": "Limpieza de Oficinas"
     }
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última Actualización",
+    "sections": {
+      "introduction": {
+        "title": "Introducción",
+        "content": "En Lumara, nos tomamos muy en serio tu privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos tu información personal cuando utilizas nuestros servicios de limpieza.",
+        "consent": "Al utilizar nuestros servicios, aceptas la recopilación y el uso de información de acuerdo con esta política."
+      },
+      "informationCollection": {
+        "title": "Recopilación de Información",
+        "subtitle": "Información que Recopilamos",
+        "content": "Recopilamos la información que nos proporcionas directamente, incluyendo:",
+        "list": [
+          "Nombre e información de contacto",
+          "Dirección y detalles de la propiedad",
+          "Información de pago",
+          "Preferencias y requisitos del servicio"
+        ],
+        "additionalInfo": "También podemos recopilar información sobre tu propiedad y requisitos de limpieza para proporcionar un mejor servicio."
+      },
+      "informationUsage": {
+        "title": "Uso de tu Información",
+        "content": "Utilizamos la información recopilada para los siguientes propósitos:",
+        "list": [
+          "Proporcionar y mejorar nuestros servicios de limpieza",
+          "Procesar pagos y transacciones",
+          "Comunicarnos contigo sobre nuestros servicios",
+          "Enviar actualizaciones de servicio y material promocional",
+          "Mantener registros de clientes"
+        ]
+      },
+      "informationSharing": {
+        "title": "Compartir Información",
+        "content": "Podemos compartir tu información con:",
+        "list": [
+          "Proveedores de servicios que nos ayudan en nuestras operaciones",
+          "Procesadores de pago para el manejo de transacciones",
+          "Autoridades legales cuando lo requiera la ley",
+          "Socios comerciales con tu consentimiento"
+        ]
+      },
+      "dataSecurity": {
+        "title": "Seguridad de Datos",
+        "content": "Implementamos medidas de seguridad apropiadas para proteger tu información personal contra acceso, modificación, divulgación o destrucción no autorizados."
+      },
+      "userRights": {
+        "title": "Tus Derechos",
+        "content": "Tienes derecho a:",
+        "list": [
+          "Acceder a tu información personal",
+          "Corregir datos inexactos",
+          "Solicitar la eliminación de tus datos",
+          "Rechazar comunicaciones de marketing",
+          "Presentar una queja ante las autoridades reguladoras"
+        ]
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "content": "Si tienes preguntas sobre esta Política de Privacidad, contáctanos en:",
+        "email": "Correo: info@lumara.hu",
+        "phone": "Teléfono: +36 20 264 41 18"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "id": "0",
+        "question": "¿Es necesario comprometerse a un contrato de servicio a largo plazo?",
+        "answer": "Para nada. Nuestros servicios están adaptados a sus necesidades específicas y diseñados para integrarse perfectamente en su ajetreado horario. No requerimos contratos ni compromisos a largo plazo. Sin embargo, tiene la opción de elegir un contrato a largo plazo si lo prefiere."
+      },
+      {
+        "id": "1",
+        "question": "¿Cuál es el número mínimo de horas requerido para completar las tareas de limpieza?",
+        "answer": "Nuestra duración mínima de tarea está establecida en 1 hora."
+      },
+      {
+        "id": "2",
+        "question": "¿Proporcionan los productos de limpieza?",
+        "answer": "Depende de sus necesidades. Recomendamos usar sus propios productos de limpieza para garantizar familiaridad, personalización y conveniencia. Si tiene preferencias o requisitos específicos, estamos encantados de acomodarlos para garantizar su satisfacción. Si es necesario, podemos usar nuestros productos de limpieza."
+      },
+      {
+        "id": "3",
+        "question": "¿Qué incluye la limpieza regular?",
+        "answer": "Cocina:\n- Limpieza de encimeras y superficies\n- Limpieza y desinfección del fregadero\n- Limpieza de frentes de armarios\n- Limpieza de mesas y sillas\n- Limpieza de estufa y campana\n- Eliminación de telarañas visibles\n- Barrido y fregado de suelos\n\nBaño:\n- Fregado y desinfección del inodoro\n- Limpieza y desinfección del fregadero, grifo y encimera\n- Limpieza de espejos y otras superficies de vidrio\n- Limpieza y desinfección de ducha o bañera\n- Eliminación de residuos de jabón y cal de las puertas de la ducha\n- Limpieza y desinfección del suelo del baño, incluyendo detrás del inodoro y alrededor de los accesorios\n- Limpieza y desinfección de cualquier superficie adicional como estantes o armarios\n- Eliminación de telarañas visibles\n\nSala de estar:\n- Desempolvado y limpieza de todas las superficies, incluyendo muebles, estantes y electrónica\n- Aspirado o barrido de suelos\n- Limpieza y pulido de cualquier superficie de vidrio como espejos y mesas de café\n- Eliminación de telarañas visibles\n\nDormitorios:\n- Limpieza de todas las superficies, incluyendo muebles, mesitas de noche y lámparas\n- Aspirado o barrido de suelos\n- Limpieza de espejos o superficies de vidrio\n- Vaciar y limpiar cualquier cubo de basura\n- Eliminación de telarañas visibles\n\nPasillo:\n- Limpieza de cualquier superficie\n- Aspirado o barrido de suelos, incluyendo cualquier alfombra o pasillo\n- Limpieza de espejos o superficies de vidrio\n- Eliminación de telarañas visibles"
+      },
+      {
+        "id": "4",
+        "question": "¿Proporcionan los productos de limpieza?",
+        "answer": "Depende de sus necesidades. Podemos usar nuestros productos de limpieza, pero también podemos usar sus propios productos de limpieza para garantizar confidencialidad, personalización y conveniencia. Si tiene preferencias o requisitos específicos, estamos encantados de acomodarlos para garantizar su satisfacción."
+      },
+      {
+        "id": "5",
+        "question": "¿Qué puedo esperar durante mi primera cita?",
+        "answer": "Estaremos en su puerta a la hora acordada, completamente equipados con todo el material de limpieza necesario para una sesión de limpieza completa en su hogar u oficina. (También podemos usar su equipo.) La primera cita típicamente toma más tiempo, ya que necesitamos aprender el nuevo entorno y comenzar a fondo el proceso de limpieza."
+      },
+      {
+        "id": "6",
+        "question": "¿Hay algo que necesite preparar antes de nuestra llegada?",
+        "answer": "La preparación óptima implica despejar tanto como sea posible para facilitar el acceso al personal de limpieza. Esto les permite concentrarse en eliminar efectivamente el polvo y la suciedad. Por ejemplo, sería beneficioso eliminar juguetes u otros objetos del suelo de antemano."
+      },
+      {
+        "id": "7",
+        "question": "¿Puedo esperar tener la misma persona de limpieza para cada visita?",
+        "answer": "Absolutamente. Puede contar con tener sistemáticamente la misma persona o equipo de limpieza asignado a cada visita. Entendemos la importancia de tener una persona o equipo familiar y confiable para manejar sus necesidades de limpieza. Ya sea un solo trabajador o un par de limpiadores, tendrá el mismo equipo cada vez. En caso de enfermedad o emergencias inesperadas, le contactaremos inmediatamente para hacer arreglos."
+      },
+      {
+        "id": "8",
+        "question": "¿Se requiere mi presencia durante el proceso de limpieza?",
+        "answer": "Algunos clientes eligen programar citas de limpieza mientras están en el trabajo o ocupados en otro lugar durante el día, mientras que otros prefieren estar presentes en casa durante la sesión de limpieza. La elección es completamente suya. Tenga la seguridad de que, independientemente de sus preferencias, nos comprometemos a proporcionar un servicio de limpieza de primera clase que cumpla con sus expectativas."
+      },
+      {
+        "id": "9",
+        "question": "¿Cuál es el precio del servicio de limpieza?",
+        "answer": "El precio siempre depende del tamaño del edificio, tamaño de alfombras, mascotas y si necesita que limpiemos artículos adicionales. Nuestra tarifa por hora es de 195 DKK + IVA. Para limpieza mensual o única, la tarifa por hora es de 243,75 kr. + IVA. A través de nuestra campaña puede obtener un 30% de descuento en su primera limpieza."
+      },
+      {
+        "id": "10",
+        "question": "¿Cómo puedo ahorrar dinero con la deducción del servicio?",
+        "answer": "Si contrata servicios de limpieza privados, puede potencialmente ahorrar considerablemente en sus gastos de limpieza.\n\nEl reciente aumento en la deducción de limpieza trae cambios significativos y ofrece una impresionante reducción del 26% en los costos de limpieza. A partir de enero de 2024, esta deducción aumenta a 11.900 DKK por año para cada persona mayor de 18 años que vive en la dirección.\n\nPor ejemplo, si su área de vivienda es de 70 metros cuadrados, un servicio de limpieza estándar podría costarle 390 DKK (IVA incluido). Pero con la deducción en juego, ese precio baja a solo 288,6 DKK (IVA incluido).\n\nEsto puede traerle ahorros significativos mientras mantiene un entorno de vida brillante.\n\nLea más sobre la deducción aquí: https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
+      },
+      {
+        "id": "11",
+        "question": "¿Qué cubre la deducción del servicio?",
+        "answer": "Limpieza regular:\n- Lavado y secado de superficies en el hogar\n- Limpieza de inodoros y baños\n- Aspirado, fregado y limpieza\n- Lavado de platos, lavandería y planchado\n- Limpieza o lavado de alfombras, cortinas, persianas, etc."
+      },
+      {
+        "id": "12",
+        "question": "¿Quién puede obtener la deducción del servicio?",
+        "answer": "Ya sea que sea propietario o inquilino de su hogar, es elegible para esta deducción. Todo lo que necesita es estar registrado en el registro nacional en la dirección específica y tener al menos 18 años. Además, no necesita supervisar o aprobar el proceso de limpieza. Al elegir un servicio de limpieza certificado como renklar.dk, se eliminan todas las cargas administrativas o la necesidad de papeleo. Si comparte su hogar con otros, como compañeros de piso en una situación de convivencia, pueden dividir fácilmente la deducción entre ustedes. Simplemente realice el pago electrónicamente para asegurar una documentación adecuada; el pago en efectivo no es elegible. Es crucial que todos los co-residentes sean residentes oficialmente registrados en la dirección para calificar."
+      },
+      {
+        "id": "13",
+        "question": "¿Es posible cancelar una cita de limpieza programada?",
+        "answer": "Sí, 24 horas antes de la cita previamente acordada. Si cancela la cita menos de 24 horas antes, cobraremos 200 DKK + IVA del precio del servicio previamente acordado."
+      },
+      {
+        "id": "14",
+        "question": "¿Cómo entran en mi casa para las citas de limpieza programadas?",
+        "answer": "Puede darnos una llave.\nPuede elegir dejar una llave en un lugar específico.\nTiene la opción de compartir el código de alarma con nosotros.\nPuede dejar la puerta desbloqueada el día programado de limpieza."
+      },
+      {
+        "id": "15",
+        "question": "¿Qué sucede si no estoy satisfecho con mi limpieza?",
+        "answer": "Asegurar su satisfacción es nuestra máxima prioridad. Por lo tanto, tenemos una garantía de satisfacción. Si tiene quejas, simplemente contáctenos dentro de las 24 horas posteriores a la limpieza. Organizaremos una visita de seguimiento lo antes posible para abordar cualquier área que no haya cumplido con sus expectativas. Este servicio de limpieza de seguimiento se ofrece sin costo adicional."
+      },
+      {
+        "id": "16",
+        "question": "¿Cuándo y cómo debo pagar el servicio de limpieza?",
+        "answer": "Si reserva el servicio de limpieza a tiempo, le enviamos la factura justo después de que se realice el servicio. Si tiene un servicio continuo de nosotros, le enviamos la factura después de cada limpieza en el primer mes, y luego enviamos las facturas una vez al mes. Puede pagar por transferencia bancaria. No aceptamos efectivo."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Opiniones de Clientes",
+    "subtitle": "La satisfacción de nuestros clientes es nuestra máxima prioridad",
+    "cta": "Contáctenos"
   }
 } 
