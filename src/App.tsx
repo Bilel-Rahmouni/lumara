@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Pricing from './components/Pricing';
 import PrivacyPolicy from './components/PrivacyPolicy';
-import FAQ from './components/FAQ';
+ import FAQ from './components/FAQ';
 import Reviews from './components/Reviews';
 import './i18n';
 
@@ -26,7 +26,7 @@ const MainContent = () => {
                 <Pricing />
                 <Reviews />
                 <Contact />
-                {/* <FAQ /> */}
+                <FAQ />  
               </section>
             </main>
           } 

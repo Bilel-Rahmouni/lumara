@@ -142,61 +142,59 @@
     "lastUpdated": "Zuletzt Aktualisiert",
     "sections": {
       "introduction": {
-        "title": "Einführung",
-        "content": "Bei Lumara nehmen wir Ihre Privatsphäre sehr ernst. Diese Datenschutzerklärung erläutert, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen, wenn Sie unsere Reinigungsservices nutzen.",
-        "consent": "Durch die Nutzung unserer Dienste stimmen Sie der Erhebung und Verwendung von Informationen gemäß dieser Richtlinie zu."
+        "title": "1. Einführung",
+        "content": "Lumara priorisiert den Schutz Ihrer Daten. Diese Datenschutzerklärung informiert Sie darüber, wie wir Ihre Daten sammeln, verwenden, übermitteln und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen.",
+        "consent": "Bitte lesen Sie diese Datenschutzerklärung sorgfältig durch. Durch die Nutzung unserer Website und Dienste stimmen Sie den in dieser Erklärung beschriebenen Praktiken zu."
       },
       "informationCollection": {
-        "title": "Datenerhebung",
-        "subtitle": "Informationen, die wir sammeln",
-        "content": "Wir sammeln die Informationen, die Sie uns direkt zur Verfügung stellen, einschließlich:",
+        "title": "2. Informationssammlung",
+        "subtitle": "2.1 Persönliche Daten",
+        "content": "Wir können persönliche Daten sammeln, die Sie uns freiwillig zur Verfügung stellen, wenn:",
         "list": [
-          "Name und Kontaktinformationen",
-          "Adresse und Immobiliendetails",
-          "Zahlungsinformationen",
-          "Service-Präferenzen und Anforderungen"
+          "Sie unser Kontaktformular ausfüllen",
+          "Sie ein Angebot anfordern",
+          "Sie einen Reinigungsservice buchen",
+          "Sie per E-Mail oder Telefon mit uns kommunizieren"
         ],
-        "additionalInfo": "Wir können auch Informationen über Ihre Immobilie und Reinigungsanforderungen sammeln, um einen besseren Service zu bieten."
+        "additionalInfo": "Diese Daten umfassen Ihren Namen, E-Mail-Adresse, Telefonnummer, Adresse und alle anderen Informationen, die Sie bereitstellen."
       },
       "informationUsage": {
-        "title": "Verwendung Ihrer Informationen",
+        "title": "3. Informationsverwendung",
         "content": "Wir verwenden die gesammelten Informationen für folgende Zwecke:",
         "list": [
-          "Bereitstellung und Verbesserung unserer Reinigungsservices",
-          "Verarbeitung von Zahlungen und Transaktionen",
-          "Kommunikation mit Ihnen bezüglich unserer Services",
-          "Versand von Service-Updates und Werbematerial",
-          "Führung von Kundenakten"
+          "Bereitstellung und Wartung unserer Dienste",
+          "Bearbeitung von Reinigungsservice-Anfragen",
+          "Kommunikation mit Ihnen über unsere Dienste",
+          "Versand von Marketing-Kommunikation (mit Ihrer Zustimmung)",
+          "Verbesserung unserer Website und Dienste"
         ]
       },
       "informationSharing": {
-        "title": "Weitergabe von Informationen",
-        "content": "Wir können Ihre Informationen mit folgenden Stellen teilen:",
+        "title": "4. Informationsweitergabe",
+        "content": "Wir verkaufen oder vermieten Ihre persönlichen Daten nicht an Dritte. Wir können Daten in folgenden Fällen weitergeben:",
         "list": [
-          "Dienstleister, die uns bei unseren Geschäftsabläufen unterstützen",
-          "Zahlungsabwickler für die Transaktionsverarbeitung",
-          "Rechtliche Behörden, wenn gesetzlich erforderlich",
-          "Geschäftspartner mit Ihrer Zustimmung"
+          "An unsere vertrauenswürdigen Partner, die in unserem Namen handeln",
+          "An Behörden, wenn gesetzlich erforderlich",
+          "An eine andere Partei mit Ihrer Zustimmung"
         ]
       },
       "dataSecurity": {
-        "title": "Datensicherheit",
-        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
+        "title": "5. Datensicherheit",
+        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer persönlichen Daten. Allerdings ist keine Methode der Übertragung über das Internet 100% sicher, und wir können keine absolute Sicherheit garantieren."
       },
       "userRights": {
-        "title": "Ihre Rechte",
+        "title": "6. Ihre Rechte",
         "content": "Sie haben das Recht:",
         "list": [
           "Auf Ihre persönlichen Daten zuzugreifen",
           "Ungenaue Daten zu korrigieren",
           "Die Löschung Ihrer Daten zu beantragen",
-          "Marketing-Kommunikation abzulehnen",
-          "Eine Beschwerde bei den Aufsichtsbehörden einzureichen"
+          "Marketing-Kommunikation abzulehnen"
         ]
       },
       "contact": {
-        "title": "Kontakt",
-        "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns unter:",
+        "title": "7. Kontakt",
+        "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte:",
         "email": "E-Mail: info@lumara.hu",
         "phone": "Telefon: +36 20 264 41 18"
       }
@@ -207,88 +205,68 @@
     "questions": [
       {
         "id": "0",
-        "question": "Ist es notwendig, sich auf einen langfristigen Servicevertrag festzulegen?",
-        "answer": "Überhaupt nicht. Unsere Dienstleistungen sind auf Ihre spezifischen Bedürfnisse zugeschnitten und so gestaltet, dass sie sich nahtlos in Ihren vollen Zeitplan einfügen. Wir verlangen keine langfristigen Verträge oder Verpflichtungen. Sie haben jedoch die Möglichkeit, einen langfristigen Vertrag zu wählen, wenn Sie dies bevorzugen."
+        "question": "Ist ein langfristiger Vertrag erforderlich?",
+        "answer": "Überhaupt nicht. Unsere Dienstleistungen sind auf Ihre Bedürfnisse zugeschnitten und so konzipiert, dass sie nahtlos in Ihren vollen Zeitplan passen. Sie haben jedoch die Möglichkeit, einen langfristigen Vertrag zu wählen, wenn Sie dies bevorzugen."
       },
       {
         "id": "1",
-        "question": "Wie viele Stunden sind mindestens erforderlich, um die Reinigungsaufgaben abzuschließen?",
-        "answer": "Unsere Mindestaufgabendauer ist auf 1 Stunde festgelegt."
+        "question": "Wie viele Stunden sind für Reinigungsarbeiten mindestens erforderlich?",
+        "answer": "Die Mindestzeit beträgt 1 Stunde."
       },
       {
         "id": "2",
         "question": "Stellen Sie Reinigungsmittel zur Verfügung?",
-        "answer": "Das hängt von Ihren Bedürfnissen ab. Wir empfehlen, Ihre eigenen Reinigungsmittel zu verwenden, um Vertrautheit, Personalisierung und Bequemlichkeit zu gewährleisten. Wenn Sie spezifische Präferenzen oder Anforderungen haben, sind wir gerne bereit, diese zu berücksichtigen, um Ihre Zufriedenheit sicherzustellen. Bei Bedarf können wir unsere Reinigungsprodukte verwenden."
+        "answer": "Das hängt von Ihren Bedürfnissen ab. Wir empfehlen die Verwendung Ihrer eigenen Mittel für Sicherheit und Komfort. Wenn Sie spezifische Präferenzen oder Anforderungen haben, passen wir uns gerne an, um Ihre Zufriedenheit zu gewährleisten. Bei Bedarf können wir unsere eigenen Reinigungsmittel verwenden, die mit 2000 Ft pro Sitzung zum Reinigungspreis hinzugerechnet werden."
       },
       {
         "id": "3",
-        "question": "Was ist in der regelmäßigen Reinigung enthalten?",
-        "answer": "Küche:\n- Abwischen von Arbeitsplatten und Oberflächen\n- Reinigung und Desinfektion des Spülbeckens\n- Abwischen von Schrankfronten\n- Abwischen von Tischen und Stühlen\n- Reinigung von Herd und Dunstabzugshaube\n- Entfernen sichtbarer Spinnweben\n- Fegen und Wischen der Böden\n\nBadezimmer:\n- Schrubben und Desinfizieren der Toilette\n- Reinigung und Desinfektion des Spülbeckens, Wasserhahns und der Arbeitsplatte\n- Abwischen von Spiegeln und anderen Glasoberflächen\n- Reinigung und Desinfektion der Dusche oder Badewanne\n- Entfernen von Seifenresten und Kalkablagerungen von den Duschwänden\n- Reinigung und Desinfektion des Badezimmerbodens, einschließlich hinter der Toilette und um Armaturen\n- Reinigung und Desinfektion zusätzlicher Oberflächen wie Regale oder Schränke\n- Entfernen sichtbarer Spinnweben\n\nWohnzimmer:\n- Staubwischen und Abwischen aller Oberflächen, einschließlich Möbel, Regale und Elektronik\n- Staubsaugen oder Fegen der Böden\n- Reinigung und Polieren aller Glasoberflächen wie Spiegel und Couchtische\n- Entfernen sichtbarer Spinnweben\n\nSchlafzimmer:\n- Abwischen aller Oberflächen, einschließlich Möbel, Nachttische und Lampen\n- Staubsaugen oder Fegen der Böden\n- Reinigung von Spiegeln oder Glasoberflächen\n- Leeren und Reinigen von Mülleimern\n- Entfernen sichtbarer Spinnweben\n\nFlur:\n- Abwischen aller Oberflächen\n- Staubsaugen oder Fegen der Böden, einschließlich Teppiche oder Läufer\n- Reinigung von Spiegeln oder Glasoberflächen\n- Entfernen sichtbarer Spinnweben"
-      },
-      {
-        "id": "4",
-        "question": "Stellen Sie Reinigungsmittel zur Verfügung?",
-        "answer": "Das hängt von Ihren Bedürfnissen ab. Wir können unsere Reinigungsprodukte verwenden, aber wir können auch Ihre eigenen Reinigungsmittel verwenden, um Vertraulichkeit, Personalisierung und Bequemlichkeit zu gewährleisten. Wenn Sie spezifische Präferenzen oder Anforderungen haben, sind wir gerne bereit, diese zu berücksichtigen, um Ihre Zufriedenheit sicherzustellen."
+        "question": "Was beinhaltet die regelmäßige Reinigung?",
+        "answer": "Küche:\n- Reinigung von Arbeitsflächen und Oberflächen\n- Reinigung und Desinfektion von Spüle und Wasserhahn\n- Reinigung von Schrankfronten\n- Reinigung von Tischen und Stühlen\n- Äußere Reinigung von Herd und Dunstabzug\n- Entfernung sichtbarer Spinnweben\n- Staubsaugen und Wischen\n\nBadezimmer:\n- Reinigung und Desinfektion der Toilette\n- Reinigung und Desinfektion von Waschbecken und Wasserhahn\n- Reinigung von Spiegeln und anderen Glasflächen\n- Reinigung und Desinfektion von Dusche oder Badewanne\n- Entfernung von Seifenresten und Kalk von der Duschwand\n- Reinigung und Desinfektion des Badezimmerbodens, einschließlich hinter der Toilette und um Armaturen\n- Reinigung und Desinfektion zusätzlicher Oberflächen wie Regale oder Schränke\n- Entfernung sichtbarer Spinnweben\n\nWohnzimmer:\n- Staubwischen und Reinigung aller Oberflächen, einschließlich Möbel, Regale und Elektronik\n- Staubsaugen\n- Reinigung und Polieren von Glasflächen wie Spiegeln und Beistelltischen\n- Entfernung sichtbarer Spinnweben\n\nSchlafzimmer:\n- Reinigung aller Oberflächen, einschließlich Möbel, Nachttische und Lampen\n- Staubsaugen\n- Reinigung von Spiegeln oder Glasflächen\n- Entfernung sichtbarer Spinnweben\n\nFlur:\n- Reinigung von Oberflächen\n- Staubsaugen, einschließlich Teppiche oder Läufer\n- Reinigung von Spiegeln oder Glasflächen\n- Entfernung sichtbarer Spinnweben"
       },
       {
         "id": "5",
-        "question": "Was kann ich bei meinem ersten Termin erwarten?",
-        "answer": "Wir werden zur vereinbarten Zeit an Ihrer Tür sein, vollständig ausgestattet mit allen notwendigen Reinigungsgeräten für eine umfassende Reinigungssitzung in Ihrem Zuhause oder Büro. (Wir können auch Ihre Ausrüstung verwenden.) Der erste Termin dauert typischerweise am längsten, da wir die neue Umgebung kennenlernen und den Reinigungsprozess gründlich beginnen müssen."
+        "question": "Was ist beim ersten Treffen zu erwarten?",
+        "answer": "Wir kommen zu Ihnen nach Hause oder ins Büro zur vereinbarten Zeit, vollständig ausgestattet mit allen notwendigen Reinigungsmitteln für eine umfassende Reinigungssitzung. (Wir können auch Ihre Mittel verwenden.) Das erste Treffen dauert normalerweise am längsten, da wir die neue Umgebung kennenlernen und den Reinigungsprozess gründlich beginnen müssen."
       },
       {
         "id": "6",
-        "question": "Gibt es etwas, das Sie vor unserer Ankunft vorbereiten müssen?",
-        "answer": "Die optimale Vorbereitung besteht darin, so viel wie möglich freizuräumen, um den Zugang für das Reinigungspersonal zu erleichtern. Dies ermöglicht es ihnen, sich auf die effektive Entfernung von Staub und Schmutz zu konzentrieren. Zum Beispiel wäre es vorteilhaft, Spielzeug oder andere Gegenstände vorher vom Boden zu entfernen."
+        "question": "Gibt es etwas, das vor unserem Eintreffen vorbereitet werden muss?",
+        "answer": "Die optimale Vorbereitung besteht aus Aufräumen und Organisieren. Dies ist notwendig, damit sich unser Kollege ausschließlich auf die Reinigung konzentrieren kann, was die Arbeit effizienter und schneller macht. Bitte entfernen Sie vorab Spielzeug oder andere Gegenstände vom Boden, und es ist notwendig, alle Gegenstände zu entfernen, die sich auf zu reinigenden Oberflächen befinden."
       },
       {
         "id": "7",
-        "question": "Kann ich damit rechnen, bei jedem Besuch die gleiche Reinigungskraft zu haben?",
-        "answer": "Absolut. Sie können darauf zählen, dass bei jedem Besuch systematisch die gleiche Reinigungskraft oder das gleiche Team zugewiesen wird. Wir verstehen die Bedeutung einer vertrauten und zuverlässigen Person oder eines Teams für die Bewältigung Ihrer Reinigungsbedürfnisse. Ob es sich um einen einzelnen Arbeiter oder ein Paar Reinigungskräfte handelt, Sie haben jedes Mal das gleiche Team. Im Falle von Krankheit oder unerwarteten Notfällen werden wir Sie sofort kontaktieren, um Absprachen zu treffen."
+        "question": "Kann ich bei jedem Besuch mit der gleichen Reinigungskraft rechnen?",
+        "answer": "Absolut. Sie können damit rechnen, dass bei jedem Besuch die gleiche Reinigungskraft oder das gleiche Team zugewiesen wird. Wir verstehen die Bedeutung einer vertrauten und zuverlässigen Person oder eines Teams für die Durchführung der Reinigung. Ob es sich um einen einzelnen Mitarbeiter oder ein Paar Reinigungskräfte handelt, es wird jedes Mal das gleiche Team sein. Bei Krankheit oder unerwarteter Notlage werden wir Sie sofort kontaktieren, um die notwendigen Arrangements zu treffen."
       },
       {
         "id": "8",
-        "question": "Ist meine Anwesenheit während des Reinigungsprozesses erforderlich?",
-        "answer": "Einige Kunden wählen es, Reinigungstermine während der Arbeit oder anderer Beschäftigungen am Tag zu planen, während andere es bevorzugen, während der Reinigungssitzung zu Hause anwesend zu sein. Die Wahl liegt ganz bei Ihnen. Seien Sie versichert, dass wir unabhängig von Ihren Präferenzen bestrebt sind, einen erstklassigen Reinigungsservice zu liefern, der Ihren Erwartungen entsprachen."
+        "question": "Muss ich während des Reinigungsprozesses anwesend sein?",
+        "answer": "Einige Kunden wählen die Reinigungszeiten während der Arbeit oder anderer Beschäftigungen, während andere es bevorzugen, während der Reinigungssitzung zu Hause zu sein. Die Wahl liegt ganz bei Ihnen. Wir stellen sicher, dass wir unabhängig von Ihren Präferenzen einen erstklassigen Reinigungsservice bieten, der Ihren Erwartungen entspricht."
       },
       {
         "id": "9",
-        "question": "Wie hoch ist der Preis für den Reinigungsservice?",
-        "answer": "Der Preis hängt immer von der Größe des Gebäudes, der Teppichgröße, Haustieren und davon ab, ob Sie möchten, dass wir zusätzliche Gegenstände reinigen. Unser Stundensatz beträgt 195 DKK + MwSt. Bei monatlicher oder einmaliger Reinigung beträgt der Stundensatz 243,75 kr. + MwSt. Durch unsere Kampagne können Sie 30% Rabatt auf Ihre erste Reinigung erhalten."
-      },
-      {
-        "id": "10",
-        "question": "Wie kann ich mit dem Serviceabzug Geld sparen?",
-        "answer": "Wenn Sie private Reinigungsdienste engagieren, können Sie potenziell erheblich an Ihren Reinigungskosten sparen.\n\nDie kürzliche Erhöhung des Reinigungsabzugs bringt bedeutende Änderungen und bietet eine beeindruckende Reduzierung der Reinigungskosten um 26%. Ab Januar 2024 erhöht sich dieser Abzug auf 11.900 DKK pro Jahr für jede Person über 18 Jahre, die an der Adresse wohnt.\n\nZum Beispiel, wenn Ihre Wohnfläche 70 Quadratmeter beträgt, könnte ein Standard-Reinigungsservice Sie 390 DKK (inkl. MwSt.) kosten. Mit dem Abzug sinkt dieser Preis auf nur 288,6 DKK (inkl. MwSt.).\n\nDies kann Ihnen erhebliche Einsparungen bringen, während Sie ein strahlend sauberes Wohnumfeld beibehalten.\n\nLesen Sie hier mehr über den Abzug: https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
-      },
-      {
-        "id": "11",
-        "question": "Was deckt der Serviceabzug ab?",
-        "answer": "Regelmäßige Reinigung:\n- Waschen und Trocknen von Oberflächen im Haus\n- Reinigung von Toiletten und Badezimmern\n- Staubsaugen, Wischen und Reinigen\n- Geschirrspülen, Wäsche und Bügeln\n- Reinigung oder Waschen von Teppichen, Vorhängen, Jalousien usw."
-      },
-      {
-        "id": "12",
-        "question": "Wer kann den Serviceabzug erhalten?",
-        "answer": "Ob Sie Eigentümer oder Mieter Ihrer Wohnung sind, Sie haben Anspruch auf diesen Abzug. Alles, was Sie benötigen, ist die Registrierung im Melderegister an der spezifischen Adresse und ein Mindestalter von 18 Jahren. Darüber hinaus müssen Sie den Reinigungsprozess nicht überwachen oder genehmigen. Durch die Wahl eines zertifizierten Reinigungsservices wie renklar.dk werden alle administrativen Belastungen oder der Bedarf an Papierkram beseitigt. Wenn Sie Ihre Wohnung mit anderen teilen, wie Mitbewohner in einer Wohngemeinschaft, können Sie den Abzug einfach untereinander aufteilen. Führen Sie einfach die Zahlung elektronisch durch, um eine ordnungsgemäße Dokumentation sicherzustellen; Barzahlung ist nicht berechtigt. Es ist entscheidend, dass alle Mitbewohner offiziell registrierte Bewohner an der Adresse sind, um sich zu qualifizieren."
+        "question": "Wie viel kostet der Reinigungsservice?",
+        "answer": "Der Preis hängt immer von der Größe des Gebäudes, der Größe der Teppiche, Haustieren und der Notwendigkeit ab, zusätzliche Gegenstände zu reinigen. Unser Stundensatz beträgt 5000 Ft. Für monatliche oder einmalige Reinigung berechnen wir einen Aufschlag von 25% pro Stunde. Durch unsere Kampagne können Sie 30% Rabatt auf Ihre erste Reinigung erhalten."
       },
       {
         "id": "13",
-        "question": "Ist es möglich, einen geplanten Reinigungstermin abzusagen?",
-        "answer": "Ja, 24 Stunden vor dem zuvor vereinbarten Termin. Wenn Sie den Termin weniger als 24 Stunden vorher absagen, berechnen wir 200 DKK + MwSt. des zuvor vereinbarten Servicepreises."
+        "question": "Ist es möglich, einen vorgebuchten Reinigungstermin zu stornieren?",
+        "answer": "Ja, 24 Stunden vor der zuvor vereinbarten Zeit. Wenn der Termin innerhalb von 24 Stunden storniert wird, muss die volle Servicegebühr gezahlt werden. Wenn der Termin nicht storniert wird und unser Kollege nicht auf das Grundstück zugreifen kann, muss 100% der Servicegebühr gezahlt werden."
       },
       {
         "id": "14",
-        "question": "Wie kommen Sie für geplante Reinigungstermine in meine Wohnung?",
-        "answer": "Sie können uns einen Schlüssel geben.\nSie können wählen, einen Schlüssel an einem bestimmten Ort zu hinterlegen.\nSie haben die Möglichkeit, uns den Alarmcode mitzuteilen.\nSie können die Tür am geplanten Reinigungstag unverschlossen lassen."
+        "question": "Wie gelangen Sie zu den vereinbarten Reinigungszeiten in mein Haus?",
+        "answer": "Sie können uns einen Schlüssel geben.\nSie können wählen, den Schlüssel an einem bestimmten Ort zu hinterlegen.\nSie haben die Möglichkeit, uns Ihren Alarmcode mitzuteilen.\nSie können die Tür am geplanten Reinigungstag offen lassen."
       },
       {
         "id": "15",
-        "question": "Was passiert, wenn ich mit meiner Reinigung nicht zufrieden bin?",
-        "answer": "Ihre Zufriedenheit sicherzustellen ist unsere oberste Priorität. Daher haben wir eine Zufriedenheitsgarantie. Wenn Sie Beschwerden haben, kontaktieren Sie uns einfach innerhalb von 24 Stunden nach der Reinigung. Wir werden so schnell wie möglich einen Nachfolgetermin vereinbaren, um alle Bereiche zu behandeln, die Ihren Erwartungen nicht entsprachen. Dieser Nachfolge-Reinigungsservice wird ohne zusätzliche Kosten angeboten."
+        "question": "Was passiert, wenn ich mit der Reinigung nicht zufrieden bin?",
+        "answer": "Ihre Zufriedenheit zu gewährleisten ist unsere oberste Priorität. Daher bieten wir eine Zufriedenheitsgarantie. Wenn Sie Beschwerden haben, kontaktieren Sie uns einfach innerhalb von 24 Stunden nach der Reinigung. Wir werden so schnell wie möglich einen Nachbesuch organisieren, um Bereiche zu behandeln, die Ihren Erwartungen nicht entsprochen haben. Wir beheben alle auftretenden Probleme kostenlos."
       },
       {
         "id": "16",
-        "question": "Wann und wie soll ich den Reinigungsservice bezahlen?",
-        "answer": "Wenn Sie den Reinigungsservice rechtzeitig buchen, senden wir Ihnen die Rechnung direkt nach der Durchführung des Services. Wenn Sie einen kontinuierlichen Service von uns haben, senden wir Ihnen die Rechnung nach jeder Reinigung im ersten Monat, und dann senden wir die Rechnungen einmal im Monat. Sie können per Banküberweisung bezahlen. Wir akzeptieren kein Bargeld."
+        "question": "Wann und wie kann ich den Reinigungsservice bezahlen?",
+        "answer": "Wir senden die Rechnung per E-Mail nach Abschluss des Service. Sie können per Banküberweisung bezahlen. Falls dies nicht für Sie passt, lassen Sie es uns bitte vorher wissen."
       }
     ]
   },

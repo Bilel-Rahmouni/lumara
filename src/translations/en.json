@@ -172,61 +172,59 @@
     "lastUpdated": "Last Updated",
     "sections": {
       "introduction": {
-        "title": "Introduction",
-        "content": "At Lumara, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you use our cleaning services.",
-        "consent": "By using our services, you consent to the collection and use of information in accordance with this policy."
+        "title": "1. Introduction",
+        "content": "Lumara prioritizes the protection of your data. This Privacy Policy informs you about how we collect, use, transmit, and protect your data when you visit our website or use our services.",
+        "consent": "Please read this privacy policy carefully. By using our website and services, you consent to the practices described in this policy."
       },
       "informationCollection": {
-        "title": "Information Collection",
-        "subtitle": "What Information We Collect",
-        "content": "We collect information that you provide directly to us, including:",
+        "title": "2. Information Collection",
+        "subtitle": "2.1 Personal Data",
+        "content": "We may collect personal data that you voluntarily provide to us when:",
         "list": [
-          "Name and contact information",
-          "Address and property details",
-          "Payment information",
-          "Service preferences and requirements"
+          "You fill out our contact form",
+          "You request a quote",
+          "You book a cleaning service",
+          "You communicate with us via email or phone"
         ],
-        "additionalInfo": "We may also collect information about your property and cleaning requirements to provide better service."
+        "additionalInfo": "This data includes your name, email address, phone number, address, and any other information you provide."
       },
       "informationUsage": {
-        "title": "How We Use Your Information",
+        "title": "3. Information Usage",
         "content": "We use the collected information for the following purposes:",
         "list": [
-          "Providing and improving our cleaning services",
-          "Processing payments and transactions",
+          "Providing and maintaining our services",
+          "Processing cleaning service requests",
           "Communicating with you about our services",
-          "Sending service updates and promotional materials",
-          "Maintaining customer records"
+          "Sending marketing communications (with your consent)",
+          "Improving our website and services"
         ]
       },
       "informationSharing": {
-        "title": "Information Sharing",
-        "content": "We may share your information with:",
+        "title": "4. Information Sharing",
+        "content": "We do not sell or rent your personal data to third parties. We may share data in the following cases:",
         "list": [
-          "Service providers who assist in our operations",
-          "Payment processors for handling transactions",
-          "Legal authorities when required by law",
-          "Business partners with your consent"
+          "With our trusted partners who act on our behalf",
+          "With authorities when required by law",
+          "With another party with your consent"
         ]
       },
       "dataSecurity": {
-        "title": "Data Security",
-        "content": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction."
+        "title": "5. Data Security",
+        "content": "We implement appropriate security measures to protect your personal data. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
       },
       "userRights": {
-        "title": "Your Rights",
+        "title": "6. Your Rights",
         "content": "You have the right to:",
         "list": [
-          "Access your personal information",
+          "Access your personal data",
           "Correct inaccurate data",
           "Request deletion of your data",
-          "Opt-out of marketing communications",
-          "File a complaint with regulatory authorities"
+          "Opt-out of marketing communications"
         ]
       },
       "contact": {
-        "title": "Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "title": "7. Contact",
+        "content": "If you have any questions about this Privacy Policy, please contact us:",
         "email": "Email: info@lumara.hu",
         "phone": "Phone: +36 20 264 41 18"
       }
@@ -237,88 +235,68 @@
     "questions": [
       {
         "id": "0",
-        "question": "Is it necessary to commit to a long-term service contract?",
-        "answer": "Not at all. Our services are tailored to meet your specific needs and designed to seamlessly integrate into your busy schedule. We don't require long-term contracts or commitments. However, you have the option to choose a long-term contract if you prefer."
+        "question": "Is a long-term contract necessary?",
+        "answer": "Not at all. Our services are tailored to your needs and designed to seamlessly fit into your busy schedule. However, you have the option to choose a long-term contract if you prefer."
       },
       {
         "id": "1",
-        "question": "What is the minimum number of hours required to complete cleaning tasks?",
-        "answer": "Our minimum task duration is set to 1 hour."
+        "question": "What is the minimum number of hours for cleaning tasks?",
+        "answer": "Minimum time is 1 hour."
       },
       {
         "id": "2",
         "question": "Do you provide cleaning supplies?",
-        "answer": "It depends on your needs. We recommend using your own cleaning supplies to ensure familiarity, personalization, and convenience. If you have specific preferences or requirements, we're happy to accommodate them to ensure your satisfaction. If necessary, we can use our cleaning products."
+        "answer": "It depends on your needs. We recommend using your own supplies for safety and convenience. If you have specific preferences or requirements, we're happy to accommodate them to ensure your satisfaction. If needed, we can use our own cleaning supplies, which will be added to the cleaning price at 2000 Ft per session."
       },
       {
         "id": "3",
-        "question": "What is included in regular cleaning?",
-        "answer": "Kitchen:\n- Wiping countertops and surfaces\n- Cleaning and disinfecting the sink\n- Wiping cabinet fronts\n- Wiping tables and chairs\n- Cleaning stove and hood\n- Removing visible cobwebs\n- Sweeping and mopping\n\nBathroom:\n- Scrubbing and disinfecting the toilet\n- Cleaning and disinfecting the sink, faucet, and countertop\n- Wiping mirrors and other glass surfaces\n- Cleaning and disinfecting shower or bathtub\n- Removing soap residue and limescale from shower doors\n- Cleaning and disinfecting bathroom floor, including behind toilet and around fixtures\n- Cleaning and disinfecting any additional surfaces such as shelves or cabinets\n- Removing visible cobwebs\n\nLiving Room:\n- Dusting and wiping all surfaces, including furniture, shelves, and electronics\n- Vacuuming or sweeping floors\n- Cleaning and polishing any glass surfaces like mirrors and coffee tables\n- Removing visible cobwebs\n\nBedrooms:\n- Wiping all surfaces, including furniture, nightstands, and lamps\n- Vacuuming or sweeping floors\n- Cleaning any mirrors or glass surfaces\n- Emptying and cleaning any trash bins\n- Removing visible cobwebs\n\nHallway:\n- Wiping any surfaces\n- Vacuuming or sweeping floors, including any rugs or runners\n- Cleaning any mirrors or glass surfaces\n- Removing visible cobwebs"
-      },
-      {
-        "id": "4",
-        "question": "Do you provide cleaning supplies?",
-        "answer": "It depends on your needs. We can use our cleaning products, but we can also use your own cleaning supplies to ensure confidentiality, personalization, and convenience. If you have specific preferences or requirements, we're happy to accommodate them to ensure your satisfaction."
+        "question": "What does regular cleaning include?",
+        "answer": "Kitchen:\n- Countertops and surfaces cleaning\n- Sink and faucet cleaning and sanitization\n- Cabinet front cleaning\n- Tables and chairs cleaning\n- Stovetop and hood exterior cleaning\n- Visible cobweb removal\n- Vacuuming and mopping\n\nBathroom:\n- Toilet cleaning and sanitization\n- Sink and faucet cleaning and sanitization\n- Mirrors and other glass surfaces wiping\n- Shower or bathtub cleaning and sanitization\n- Soap residue and limescale removal from shower door\n- Bathroom floor cleaning and sanitization, including behind toilet and around fixtures\n- Additional surfaces cleaning and sanitization, such as shelves or cabinets\n- Visible cobweb removal\n\nLiving Room:\n- All surfaces dusting and wiping, including furniture, shelves, and electronics\n- Vacuuming\n- Glass surfaces cleaning and polishing, such as mirrors and coffee tables\n- Visible cobweb removal\n\nBedrooms:\n- All surfaces wiping, including furniture, nightstands, and lamps\n- Vacuuming\n- Mirrors or glass surfaces cleaning\n- Visible cobweb removal\n\nHallway:\n- Surface wiping\n- Vacuuming, including rugs or runners\n- Mirrors or glass surfaces cleaning\n- Visible cobweb removal"
       },
       {
         "id": "5",
-        "question": "What can I expect during my first appointment?",
-        "answer": "We will be at your door at the agreed time, fully equipped with all necessary cleaning equipment for a comprehensive cleaning session in your home or office. (We can also use your equipment.) The first appointment typically takes the most time, as we need to learn the new environment and thoroughly begin the cleaning process."
+        "question": "What to expect at the first meeting?",
+        "answer": "We arrive at your home or office at the agreed time, fully equipped with all necessary cleaning supplies for a comprehensive cleaning session. (We can also use your supplies.) The first meeting usually takes the most time as we need to learn the new environment and thoroughly begin the cleaning process."
       },
       {
         "id": "6",
-        "question": "Is there anything you need to prepare before our arrival?",
-        "answer": "The optimal preparation involves clearing as much as possible to facilitate access for cleaning personnel. This allows them to focus on effectively removing dust and dirt. For example, it would be beneficial to remove toys or other items from the floor beforehand."
+        "question": "Is there anything to prepare before our arrival?",
+        "answer": "The optimal preparation consists of tidying up and organizing. This is necessary so that our colleague only needs to focus on cleaning, making the work more efficient and faster. Please remove toys or other items from the floor in advance, and it's necessary to remove any items that are on surfaces that need to be cleaned."
       },
       {
         "id": "7",
-        "question": "Can I expect to have the same cleaning person for each visit?",
-        "answer": "Absolutely. You can count on consistently having the same cleaning person or team assigned to each visit. We understand the importance of having a familiar and reliable person or team to handle your cleaning needs. Whether it's a single worker or a pair of cleaners, you'll have the same team every time. In case of illness or unexpected emergencies, we will contact you immediately to make arrangements."
+        "question": "Can I expect the same cleaning person every visit?",
+        "answer": "Absolutely. You can expect the same cleaning person or team to be assigned for every visit. We understand the importance of having a familiar and trustworthy person or team perform the cleaning. Whether it's a single worker or a pair of cleaners, it will be the same team every time. In case of illness or unexpected emergency, we will contact you immediately to make necessary arrangements."
       },
       {
         "id": "8",
-        "question": "Is my presence required during the cleaning process?",
-        "answer": "Some customers choose to schedule cleaning appointments while they're at work or occupied elsewhere during the day, while others prefer to be present at home during the cleaning session. The choice is entirely up to you. Rest assured that regardless of your preferences, we are dedicated to delivering first-class cleaning service that meets your expectations."
+        "question": "Do I need to be present during the cleaning process?",
+        "answer": "Some clients choose to schedule cleaning times while they're at work or otherwise occupied, while others prefer to be home during the cleaning session. The choice is entirely yours. We ensure that regardless of your preference, we are committed to providing first-class cleaning service that meets your expectations."
       },
       {
         "id": "9",
-        "question": "What is the price for cleaning service?",
-        "answer": "The price always depends on the size of the building, carpet size, pets, and whether you need us to clean extra items. Our hourly rate is 195 DKK + VAT. For monthly cleaning or one-time cleaning, the hourly rate is 243.75 kr. + VAT. Through our campaign, you can get a 30% discount on your first cleaning."
-      },
-      {
-        "id": "10",
-        "question": "How can I save money with the service deduction?",
-        "answer": "If you hire private cleaning services, you can potentially save significantly on your cleaning expenses.\n\nThe recent increase in the cleaning deduction brings significant changes and offers an impressive 26% reduction in cleaning costs. From January 2024, this deduction increases to 11,900 DKK per year for each person over 18 years old living at the address.\n\nFor example, if your living area is 70 square meters, a standard cleaning service might cost you 390 DKK (incl. VAT). But with the deduction in play, that price drops to just 288.6 DKK (incl. VAT).\n\nThis can provide significant savings for you while maintaining a sparkling clean living environment.\n\nRead more about the deduction here: https://skat.dk/borger/fradrag/servicefradrag/servicefradrag"
-      },
-      {
-        "id": "11",
-        "question": "What does the service deduction cover?",
-        "answer": "Regular cleaning:\n- Washing and drying surfaces in the home\n- Cleaning toilets and bathrooms\n- Vacuuming, mopping, and cleaning\n- Dishwashing, laundry, and ironing\n- Cleaning or washing carpets, curtains, blinds, etc."
-      },
-      {
-        "id": "12",
-        "question": "Who can get the service deduction?",
-        "answer": "Whether you own or rent your home, you are eligible for this deduction. All you need is to be registered in the national register at the specific address and be at least 18 years old. Additionally, you don't need to oversee or approve the cleaning process. By choosing a certified cleaning service like renklar.dk, any administrative burdens or need for paperwork are removed. If you share your home with others, such as fellow students in a shared living arrangement, you can easily split the deduction between you. Simply make the payment electronically to ensure proper documentation; cash payment is not eligible. It's crucial that all co-residents are officially registered residents at the address to qualify."
+        "question": "How much does the cleaning service cost?",
+        "answer": "The price always depends on the building size, rug size, pets, and whether additional items need cleaning. Our hourly rate is 5000 Ft. For monthly or one-time cleaning, we charge a 25% surcharge per hour. Through our campaign, you can get a 30% discount on your first cleaning fee."
       },
       {
         "id": "13",
-        "question": "Is it possible to cancel a scheduled cleaning appointment?",
-        "answer": "Yes, 24 hours before the previously agreed appointment. If you cancel the appointment less than 24 hours before, we will charge 200 DKK + VAT of the previously agreed service price."
+        "question": "Is it possible to cancel a pre-booked cleaning appointment?",
+        "answer": "Yes, 24 hours before the previously agreed time. If the appointment is cancelled within 24 hours, the full service fee must be paid. If the appointment is not cancelled and our colleague cannot access the property, 100% of the service fee must be paid."
       },
       {
         "id": "14",
-        "question": "How do you get into my home for scheduled cleaning appointments?",
-        "answer": "You can give us a key.\nYou can choose to leave a key in a specific place.\nYou have the option to share the alarm code with us.\nYou can leave the door unlocked on the scheduled cleaning day."
+        "question": "How do you access my home at the agreed cleaning times?",
+        "answer": "You can give us a key.\nYou can choose to leave the key in a designated place.\nYou have the option to share your alarm code with us.\nYou can leave the door open on the planned cleaning day."
       },
       {
         "id": "15",
-        "question": "What if I'm not satisfied with my cleaning?",
-        "answer": "Ensuring your satisfaction is our top priority. Therefore, we have a satisfaction guarantee. If you have complaints, simply contact us within 24 hours after the cleaning. We will arrange a follow-up visit as soon as possible to address any areas that didn't meet your expectations. This follow-up cleaning service is offered at no extra cost."
+        "question": "What happens if I'm not satisfied with the cleaning?",
+        "answer": "Ensuring your satisfaction is our top priority. Therefore, we offer a satisfaction guarantee. If you have complaints, simply contact us within 24 hours after cleaning. We will organize a follow-up visit as soon as possible to address any areas that didn't meet your expectations. We fix any issues that arise free of charge."
       },
       {
         "id": "16",
-        "question": "When and how should I pay for the cleaning service?",
-        "answer": "If you book cleaning service on time, we send you the invoice right after the service is performed. If you have continuous service from us, we send you the invoice after each cleaning in the first month, and then we send invoices once a month. You can pay by bank transfer. We do not accept cash."
+        "question": "When and how can I pay for the cleaning service?",
+        "answer": "We send the invoice by email after the service is completed. You can pay by bank transfer. If this doesn't suit you, please let us know in advance."
       }
     ]
   },
