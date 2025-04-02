@@ -87,7 +87,7 @@
     },
     "pricing": {
     "title": "Nincsenek rejtett díjak - Csak átlátható árak",
-    "subtitle": "A takarítási szolgáltatásaink ára 5000 ft",
+    "subtitle": "A takarítási szolgáltatásaink ára 3500 ft",
     "perHour": "per óra",
     "priceSummary": "Ár összesítés",
     "price": "Ár",
@@ -223,7 +223,7 @@
       {
         "id": "9",
         "question": "Mennyi a takarítási szolgáltatás ára?",
-        "answer": "Az ár mindig függ az épület méretétől, szőnyeg méretétől, háziállatoktól és attól, hogy szükséges-e további tárgyak takarítása. Órabérünk 5000 Ft. Havi vagy egyszeri takarítás alkalmával 25% felárat számítunk fel óránként. Kampányunkon keresztül 30% kedvezményt kaphat az első takarítás díjából."
+        "answer": "Az ár mindig függ az épület méretétől, szőnyeg méretétől, háziállatoktól és attól, hogy szükséges-e további tárgyak takarítása. Órabérünk 3500 Ft. Havi vagy egyszeri takarítás alkalmával 25% felárat számítunk fel óránként. Kampányunkon keresztül 30% kedvezményt kaphat az első takarítás díjából."
       },
       {
         "id": "13",

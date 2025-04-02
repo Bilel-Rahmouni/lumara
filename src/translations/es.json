@@ -90,9 +90,9 @@
     },
     "pricing": {
       "title": "Sin Costos Ocultos - Solo Precios Transparentes",
-      "subtitle": "Nuestros precios de limpieza comienzan desde 5000 ft",
+      "subtitle": "Nuestros precios de limpieza comienzan desde 3500 ft",
       "perHour": "por hora",
-      "starting": "5000 Ft / hora",
+      "starting": "3500 Ft / hora",
       "discounts": {
         "first": "-15% en la primera limpieza",
         "move": "-30% en limpieza post mudanza"
@@ -251,7 +251,7 @@
       {
         "id": "9",
         "question": "¿Cuánto cuesta el servicio de limpieza?",
-        "answer": "El precio siempre depende del tamaño del edificio, el tamaño de las alfombras, las mascotas y la necesidad de limpiar elementos adicionales. Nuestra tarifa por hora es de 5000 Ft. Para limpieza mensual o única, cobramos un recargo del 25% por hora. A través de nuestra campaña, puede obtener un 30% de descuento en su primera limpieza."
+        "answer": "El precio siempre depende del tamaño del edificio, el tamaño de las alfombras, las mascotas y la necesidad de limpiar elementos adicionales. Nuestra tarifa por hora es de 3500 Ft. Para limpieza mensual o única, cobramos un recargo del 25% por hora. A través de nuestra campaña, puede obtener un 30% de descuento en su primera limpieza."
       },
       {
         "id": "13",

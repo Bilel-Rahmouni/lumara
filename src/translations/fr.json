@@ -87,7 +87,7 @@
       "title": "Pas de Frais Cachés - Seulement des Prix Transparents",
       "subtitle": "Nos prix de nettoyage commencent à partir de",
       "perHour": "par heure",
-      "starting": "5000 Ft / heure",
+      "starting": "3500 Ft / heure",
       "discounts": {
         "first": "-15% pour le premier nettoyage",
         "move": "-30% sur le nettoyage après déménagement"
@@ -246,7 +246,7 @@
       {
         "id": "9",
         "question": "Combien coûte le service de nettoyage ?",
-        "answer": "Le prix dépend toujours de la taille du bâtiment, de la taille des tapis, des animaux domestiques et de la nécessité de nettoyer des objets supplémentaires. Notre tarif horaire est de 5000 Ft. Pour le nettoyage mensuel ou ponctuel, nous facturons une majoration de 25% par heure. Grâce à notre campagne, vous pouvez bénéficier d'une remise de 30% sur vos frais de premier nettoyage."
+        "answer": "Le prix dépend toujours de la taille du bâtiment, de la taille des tapis, des animaux domestiques et de la nécessité de nettoyer des objets supplémentaires. Notre tarif horaire est de 3500 Ft. Pour le nettoyage mensuel ou ponctuel, nous facturons une majoration de 25% par heure. Grâce à notre campagne, vous pouvez bénéficier d'une remise de 30% sur vos frais de premier nettoyage."
       },
       {
         "id": "13",

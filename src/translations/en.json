@@ -80,7 +80,7 @@
     },
     "pricing": {
       "title": "Pricing",
-      "starting": "5000 Ft / hour",
+      "starting": "3500 Ft / hour",
       "discounts": {
         "first": "-15% for first cleaning",
         "airbnb": "-20% on regular Airbnb service"
@@ -129,7 +129,7 @@
   },
   "pricing": {
     "title": "No Hidden Fees - Just Transparent Prices",
-    "subtitle": "Our cleaning service prices start from 5000 ft",
+    "subtitle": "Our cleaning service prices start from 3500 ft",
     "perHour": "per hour",
     "priceSummary": "Price Summary",
     "price": "Price",
@@ -276,7 +276,7 @@
       {
         "id": "9",
         "question": "How much does the cleaning service cost?",
-        "answer": "The price always depends on the building size, rug size, pets, and whether additional items need cleaning. Our hourly rate is 5000 Ft. For monthly or one-time cleaning, we charge a 25% surcharge per hour. Through our campaign, you can get a 30% discount on your first cleaning fee."
+        "answer": "The price always depends on the building size, rug size, pets, and whether additional items need cleaning. Our hourly rate is 3500 Ft. For monthly or one-time cleaning, we charge a 25% surcharge per hour. Through our campaign, you can get a 30% discount on your first cleaning fee."
       },
       {
         "id": "13",

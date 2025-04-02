@@ -87,7 +87,7 @@
       "title": "Keine versteckten Kosten - Nur transparente Preise",
       "subtitle": "Unsere Reinigungspreise beginnen ab",
       "perHour": "pro Stunde",
-      "starting": "5000 Ft / Stunde",
+      "starting": "3500 Ft / Stunde",
       "discounts": {
         "first": "-15% auf die erste Reinigung",
         "move": "-30% auf Umzugsreinigung"
@@ -246,7 +246,7 @@
       {
         "id": "9",
         "question": "Wie viel kostet der Reinigungsservice?",
-        "answer": "Der Preis hängt immer von der Größe des Gebäudes, der Größe der Teppiche, Haustieren und der Notwendigkeit ab, zusätzliche Gegenstände zu reinigen. Unser Stundensatz beträgt 5000 Ft. Für monatliche oder einmalige Reinigung berechnen wir einen Aufschlag von 25% pro Stunde. Durch unsere Kampagne können Sie 30% Rabatt auf Ihre erste Reinigung erhalten."
+        "answer": "Der Preis hängt immer von der Größe des Gebäudes, der Größe der Teppiche, Haustieren und der Notwendigkeit ab, zusätzliche Gegenstände zu reinigen. Unser Stundensatz beträgt 3500 Ft. Für monatliche oder einmalige Reinigung berechnen wir einen Aufschlag von 25% pro Stunde. Durch unsere Kampagne können Sie 30% Rabatt auf Ihre erste Reinigung erhalten."
       },
       {
         "id": "13",

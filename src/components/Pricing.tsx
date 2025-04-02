@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 
 const Pricing = () => {
   const { t } = useTranslation();
-  const mainPrice = 5000; // Price per hour
+  const mainPrice = 3500; // Price per hour
   
   // Define frequency options with their multipliers
   const frequencyOptions = [
@@ -69,9 +69,9 @@ const Pricing = () => {
     // Calculate price based on minutes and frequency
     let calculatedPrice = (totalMinutes / 60) * mainPrice;
     
-    // Ensure minimum price of 5000 ft for areas between 0 and 30m²
+    // Ensure minimum price of 3500 ft for areas between 0 and 30m²
     if (surface <= 30) {
-      calculatedPrice = Math.max(5000, calculatedPrice);
+      calculatedPrice = Math.max(3500, calculatedPrice);
     }
     
     // Apply frequency multiplier

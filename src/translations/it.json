@@ -87,7 +87,7 @@
       "title": "Nessun Costo Nascosto - Solo Prezzi Trasparenti",
       "subtitle": "I nostri prezzi di pulizia iniziano da",
       "perHour": "all'ora",
-      "starting": "5000 Ft / ora",
+      "starting": "3500 Ft / ora",
       "discounts": {
         "first": "-15% sulla prima pulizia",
         "move": "-30% sulla pulizia post trasloco"
@@ -246,7 +246,7 @@
       {
         "id": "9",
         "question": "Quanto costa il servizio di pulizia?",
-        "answer": "Il prezzo dipende sempre dalle dimensioni dell'edificio, dalla dimensione dei tappeti, dalla presenza di animali domestici e dalla necessità di pulire oggetti aggiuntivi. La nostra tariffa oraria è di 5000 Ft. Per la pulizia mensile o occasionale, addebitiamo un supplemento del 25% all'ora. Attraverso la nostra campagna, potete ottenere uno sconto del 30% sulla vostra prima pulizia."
+        "answer": "Il prezzo dipende sempre dalle dimensioni dell'edificio, dalla dimensione dei tappeti, dalla presenza di animali domestici e dalla necessità di pulire oggetti aggiuntivi. La nostra tariffa oraria è di 3500 Ft. Per la pulizia mensile o occasionale, addebitiamo un supplemento del 25% all'ora. Attraverso la nostra campagna, potete ottenere uno sconto del 30% sulla vostra prima pulizia."
       },
       {
         "id": "13",
